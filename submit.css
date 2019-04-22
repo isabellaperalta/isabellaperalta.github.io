@@ -181,3 +181,7 @@ ul a {
 a:hover {
    color: black;
  }
+
+a:link {
+  text-decoration: none;
+}
