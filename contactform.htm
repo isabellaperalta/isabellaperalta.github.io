@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8"><title>What are you thinking?</title>
+<meta content="php, contact, form, thinking" name="keywords">
+<meta content="Contact us and let us know if we can help you out further." name="description">
+
+<style>
+input, textarea {
+	padding: 5px;
+	margin: 10px;
+	font-family: Cambria, Cochin, serif;
+	font-size: medium;
+	font-weight: bold;
+	outline: none;
+}
+p {
+	font-family: Cambria, Cochin, serif;
+	font-size: large;
+	margin-bottom: -5px;
+}
+input[type=text], textarea {
+	width: 350px;
+	background-color: #DDEDFF;
+	border: 1px solid #97C9FF;
+}
+input[type=submit] {
+	width: 100px;
+	background-color: #669900;
+	border: 1px solid #336600;
+	font-size: large;
+	color: #FFFFFF;
+}
+input[type=submit]:hover {
+	background-color: #78B300;
+	cursor: pointer;
+}
+input[type=submit]:active {
+	background-color: #4A6F00;
+}
+
+h1 {
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	font-size: 2.1em;
+	color: #3399FF;
+}
+body {
+	padding: 10px;
+	background-color: #F4F4F4;
+}
+</style>
+
+</head>
+
+<body>
+	<h1>What are you thinking?</h1>
+	<form action="mailer.php" method="POST">
+		<div>
+			<p>Name</p>
+			<input name="name" type="text"> <br> </div>
+			<div>
+			<p>E-Mail (Optional)</p>
+			<input name="email" type="text">
+			<br>
+			</div>
+			<div>
+			<p>Comment</p>
+			<textarea cols="30" name="comment" rows="9"></textarea>
+			<br> </div>
+		<div>
+		<input name="submit" type="submit" value="Send!"> </div>
+	</form>
+</body>
+
+</html>
