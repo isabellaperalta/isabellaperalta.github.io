@@ -110,8 +110,9 @@ div {
 .thankyou {
   text-align: center;
   color: gray;
+  line-height: 80%;
   font-size: 1.2rem;
-  font-family: "Times"; Prompt, sans-serif;
+  font-family: "Lato"; Prompt, sans-serif;
 }
 
  /* Form */
