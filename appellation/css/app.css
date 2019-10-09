@@ -1,0 +1,217 @@
+html, body {
+  background-color:#34495e;
+  margin: 0px;
+  height:80%;
+  position: relative;
+  min-height: 80%;
+  color: white;
+  box-sizing: border-box;
+}
+
+/* Change placeholder font color */
+*::-webkit-input-placeholder {
+    color: white;
+}
+*:-moz-placeholder {
+    /* FF 4-18 */
+    color: white;
+}
+*::-moz-placeholder {
+    /* FF 19+ */
+    color: white;
+}
+*:-ms-input-placeholder {
+    /* IE 10+ */
+    color: white;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.search {
+  margin-top: 16%;
+  background-color: #34495e;
+  line-height: 28px;
+  text-align: center;
+  font-size: 27px;
+  color: white;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.tagline{
+  font-size: 18px;
+  margin-top: -1%;
+}
+
+.about {
+  line-height: 15px;
+}
+
+#defineTitle{
+  font-size: 40px;
+  margin-left: 5%;
+  margin-top: 7%;
+}
+
+#noun {
+  margin-left: 5%;
+  font-style: italic;
+  margin-bottom: 3%;
+}
+
+#box {
+  margin-left: 5%;
+  margin-right: 40%;
+  line-height: 28px;
+}
+
+#list {
+  margin-top: 3%;
+  margin-left: 5%;
+}
+
+#back {
+  margin-top: 4%;
+  margin-left: 5%;
+}
+
+#api {
+  margin-top:4%;
+  margin-left: 5%;
+}
+
+#made {
+  margin-bottom: 4%;
+  margin-left: 5%;
+}
+
+.border {
+  border:1px white;
+  padding-top:20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:3%;
+  width: 400px;
+  border-style: solid;
+  border-width: 6px;
+  padding-bottom:20px;
+  padding-left: 0px;
+}
+
+input {
+  width:350px;
+  border:none;
+  margin:10px auto;
+  background: transparent;
+}
+
+input:focus {
+  outline:none;
+}
+
+button {
+  display:block;
+  margin:10px auto;
+  height: 50px;
+}
+
+#theInput {
+  color: white;
+  text-align: left;
+  font-size: 0.75em;
+}
+
+#theButton {
+  display: block;
+  color: #34495e;
+  background: white;
+  font-size: 0.75em;
+  font-weight: 500;
+  margin:20px auto;
+}
+
+.title-word{
+  font-family: "Lato", sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.title-word-italic{
+  font-family: "Lato", sans-serif;
+  font-size: 1.5em;
+  font-style:bold;
+}
+
+#definition {
+  text-align: center;
+  margin-left: 25%;
+  margin-right:25%;
+  margin-top: 5%;
+  line-height: 1.65em;
+  margin-bottom:50px;
+}
+
+.datamuse {
+  margin-top: 5%;
+  line-height: 1.65em;
+  display: flex;
+}
+
+#descriptive {
+  float: left;
+  width: 33%;
+  text-align: center;
+  border-right: 2px solid white;
+}
+
+#rhyme {
+  text-align: center;
+  display: inline-block;
+  width: 33%;
+}
+
+#relate {
+  text-align: center;
+  float: right; width: 33%;
+  border-left: 2px solid white;
+}
+
+#wiki {
+  margin-left:14%;
+  margin-right:14%;
+  margin-top: 50px;
+  margin-bottom:50px;
+  line-height: 1.65em;
+}
+
+#examples {
+  margin-left:14%;
+  margin-right:14%;
+  margin-top:7%;
+  margin-bottom:50px;
+  line-height: 1.65em;
+}
+
+.theFooter {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.redheart {
+    color:#ff0000; font-size:14px;
+    font-family:'arial unicode MS', arial, sans-serif;
+    display: inline-block;
+}
+
+#heart {
+    text-decoration: underline;
+}
+
+#space {
+  padding-top: 2%;
+}
