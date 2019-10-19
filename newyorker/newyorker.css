@@ -1,0 +1,59 @@
+html, body {
+  background-color: #fafafa;
+  margin: 0px;
+  height:100%;
+  position: relative;
+  min-height: 100%;
+  color: black;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #fafafa;
+  padding-top: 50px;
+  padding-left:250px;
+  padding-right:250px;
+  line-height: 28px;
+  text-align: center;
+  font-size: 27px;
+  color: black;
+}
+
+img {
+  margin-top:10px;
+}
+
+.logo {
+  width:70%;
+}
+
+.image{
+  height:400px;
+}
+
+.box {
+    height:510px;
+}
+
+.display-data {
+  font-family: 'Baskerville', serif;
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+
+.daily {
+    font-family: 'Reenie Beanie', cursive;
+}
+
+.credit {
+  font-size: 11px;
+  font-family: 'Baskerville';
+  margin-top: 40px;
+}
+
+.redheart {
+      color:#ff0000; font-size:14px;
+      font-family:'arial unicode MS', arial, sans-serif;
+      display: inline-block;
+        margin-bottom: 20px;
+  }
