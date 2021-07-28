@@ -1,0 +1,791 @@
+[ 2019-02-27 05:53:55 ] full archive url = https://writing-wrangler.herokuapp.com/
+[ 2019-02-27 05:53:55 ] archive url = https://writing-wrangler.herokuapp.com
+[ 2019-02-27 05:53:55 ] website url = writing-wrangler.herokuapp.com/
+[ 2019-02-27 05:53:55 ] no www url = writing-wrangler.herokuapp.com
+[ 2019-02-27 05:53:55 ] main_domain = herokuapp.com
+[ 2019-02-27 05:53:55 ] subdomain = writing-wrangler
+[ 2019-02-27 05:53:55 ] type( demo or live ) = live
+[ 2019-02-27 05:53:55 ] max_level = 5
+[ 2019-02-27 05:53:55 ] main folder = writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee
+[ 2019-02-27 05:53:55 ] email = bperalta96@gmail.com
+[ 2019-02-27 05:53:55 ] scaping_type = all
+[ 2019-02-27 05:53:55 ] file_path_index = 
+[ 2019-02-27 05:53:55 ] file_path_without_ext_index = 
+[ 2019-02-27 05:53:55 ] #####################################################################################################
+[ 2019-02-27 05:53:55 ] ###############https://writing-wrangler.herokuapp.com ( Scraping  of 1 / 0 )  - 1 error pages fixed###############
+[ 2019-02-27 05:53:55 ] ###############Local URL = files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/index.html (code = 200) ###############
+[ 2019-02-27 05:53:55 ] ###############Try number = 1###############
+[ 2019-02-27 05:53:55 ] #####################################################################################################
+[ 2019-02-27 05:53:55 ]  Main level =0
+[ 2019-02-27 05:53:55 ] ---------------------------------------
+[ 2019-02-27 05:53:55 ] get_curl_live() function : Start
+[ 2019-02-27 05:53:55 ] ---------------------------------------
+[ 2019-02-27 05:53:55 ] TEST 1
+[ 2019-02-27 05:53:55 ] URL = https://writing-wrangler.herokuapp.com
+[ 2019-02-27 05:53:55 ] no proxy used ( Test nbr 1/5 )
+[ 2019-02-27 05:53:55 ] useragent = Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+[ 2019-02-27 05:53:55 ] Original encoding = ASCII
+[ 2019-02-27 05:53:55 ] Final encoding = ASCII
+[ 2019-02-27 05:53:55 ] Language = N/A
+[ 2019-02-27 05:53:55 ] 
+[ 2019-02-27 05:53:55 ] 
+[ 2019-02-27 05:53:55 ] /**************************************************************/
+[ 2019-02-27 05:53:55 ] /*******		Extract css_from_import files		**********/
+[ 2019-02-27 05:53:55 ] /**************************************************************/
+[ 2019-02-27 05:53:55 ] /*******		End : Extract css_from_import files		**********/
+[ 2019-02-27 05:53:55 ] 
+[ 2019-02-27 05:53:55 ] 
+[ 2019-02-27 05:53:55 ] 
+[ 2019-02-27 05:53:55 ] /**************************************************************/
+[ 2019-02-27 05:53:55 ] /*******		Extract pdf files		**********/
+[ 2019-02-27 05:53:55 ] /**************************************************************/
+[ 2019-02-27 05:53:55 ] /*******		End : Extract pdf files		**********/
+[ 2019-02-27 05:53:55 ] 
+[ 2019-02-27 05:53:55 ] 
+[ 2019-02-27 05:53:55 ] 
+[ 2019-02-27 05:53:55 ] /**************************************************************/
+[ 2019-02-27 05:53:55 ] /*******		Extract css files		**********/
+[ 2019-02-27 05:53:55 ] /**************************************************************/
+[ 2019-02-27 05:53:55 ] file url = https://writing-wrangler.herokuapp.com/writing.css
+[ 2019-02-27 05:53:55 ] local_file_full_path = files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/writing.css
+[ 2019-02-27 05:53:55 ] file url 1 = https://writing-wrangler.herokuapp.com/writing.css
+[ 2019-02-27 05:53:55 ] scrape_it = 1
+[ 2019-02-27 05:53:55 ] ---------------------------------------
+[ 2019-02-27 05:53:55 ] get_curl_live() function : Start
+[ 2019-02-27 05:53:55 ] ---------------------------------------
+[ 2019-02-27 05:53:55 ] TEST 1
+[ 2019-02-27 05:53:55 ] URL = https://writing-wrangler.herokuapp.com/writing.css
+[ 2019-02-27 05:53:55 ] no proxy used ( Test nbr 1/5 )
+[ 2019-02-27 05:53:55 ] useragent = Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36
+[ 2019-02-27 05:53:55 ] 
+[ 2019-02-27 05:53:55 ] 
+[ 2019-02-27 05:53:55 ] /**************************************************************/
+[ 2019-02-27 05:53:55 ] /*******		Extract css_from_import files		**********/
+[ 2019-02-27 05:53:55 ] /**************************************************************/
+[ 2019-02-27 05:53:55 ] /*******		End : Extract css_from_import files		**********/
+[ 2019-02-27 05:53:55 ] 
+[ 2019-02-27 05:53:55 ] 
+[ 2019-02-27 05:53:55 ] 
+[ 2019-02-27 05:53:55 ] /**************************************************************/
+[ 2019-02-27 05:53:55 ] /*******		Extract fonts_from_css files		**********/
+[ 2019-02-27 05:53:55 ] /**************************************************************/
+[ 2019-02-27 05:53:55 ] /*******		End : Extract fonts_from_css files		**********/
+[ 2019-02-27 05:53:55 ] 
+[ 2019-02-27 05:53:55 ] 
+[ 2019-02-27 05:53:55 ] 
+[ 2019-02-27 05:53:55 ] /**************************************************************/
+[ 2019-02-27 05:53:55 ] /*******		Extract background_images files		**********/
+[ 2019-02-27 05:53:55 ] /**************************************************************/
+[ 2019-02-27 05:53:55 ] /*******		End : Extract background_images files		**********/
+[ 2019-02-27 05:53:55 ] 
+[ 2019-02-27 05:53:55 ] files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/writing.css --> File Created !!!
+[ 2019-02-27 05:53:56 ] -------------------------------------------------------------------------------------------
+[ 2019-02-27 05:53:56 ] file url = https://writing-wrangler.herokuapp.com/bower_components/sweetalert2/dist/sweetalert2.min.css
+[ 2019-02-27 05:53:56 ] local_file_full_path = files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/bower_components/sweetalert2/dist/sweetalert2.min.css
+[ 2019-02-27 05:53:56 ] file url 1 = https://writing-wrangler.herokuapp.com/bower_components/sweetalert2/dist/sweetalert2.min.css
+[ 2019-02-27 05:53:56 ] scrape_it = 1
+[ 2019-02-27 05:53:56 ] ---------------------------------------
+[ 2019-02-27 05:53:56 ] get_curl_live() function : Start
+[ 2019-02-27 05:53:56 ] ---------------------------------------
+[ 2019-02-27 05:53:56 ] TEST 1
+[ 2019-02-27 05:53:56 ] URL = https://writing-wrangler.herokuapp.com/bower_components/sweetalert2/dist/sweetalert2.min.css
+[ 2019-02-27 05:53:56 ] no proxy used ( Test nbr 1/5 )
+[ 2019-02-27 05:53:56 ] useragent = Mozilla/1.22 (compatible; MSIE 10.0; Windows 3.1)
+[ 2019-02-27 05:53:56 ] Code = 404
+[ 2019-02-27 05:53:56 ] HTML found = Yes
+[ 2019-02-27 05:53:56 ]     No sleep!
+[ 2019-02-27 05:53:56 ] ----
+[ 2019-02-27 05:53:56 ] TEST 2
+[ 2019-02-27 05:53:56 ] URL = http://writing-wrangler.herokuapp.com/bower_components/sweetalert2/dist/sweetalert2.min.css  --> Switch protocol ( Try 'http' )
+[ 2019-02-27 05:53:56 ] no proxy used ( Test nbr 2/5 )
+[ 2019-02-27 05:53:56 ] useragent = Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; chromeframe/13.0.782.215)
+[ 2019-02-27 05:53:56 ] Code = 404
+[ 2019-02-27 05:53:56 ] HTML found = Yes
+[ 2019-02-27 05:53:56 ]     No sleep!
+[ 2019-02-27 05:53:56 ] ----
+[ 2019-02-27 05:53:56 ] TEST 3
+[ 2019-02-27 05:53:56 ] URL = https://writing-wrangler.herokuapp.com/bower_components/sweetalert2/dist/sweetalert2.min.css
+[ 2019-02-27 05:53:56 ] no proxy used ( Test nbr 3/5 )
+[ 2019-02-27 05:53:56 ] useragent = Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:23.0) Gecko/20131011 Firefox/23.0
+[ 2019-02-27 05:53:56 ] Code = 404
+[ 2019-02-27 05:53:56 ] HTML found = Yes
+[ 2019-02-27 05:53:56 ]     No sleep!
+[ 2019-02-27 05:53:56 ] ----
+[ 2019-02-27 05:53:56 ] -------------------------------------------------------------------------------------------
+[ 2019-02-27 05:53:56 ] /*******		End : Extract css files		**********/
+[ 2019-02-27 05:53:56 ] 
+[ 2019-02-27 05:53:56 ] 
+[ 2019-02-27 05:53:56 ] 
+[ 2019-02-27 05:53:56 ] /**************************************************************/
+[ 2019-02-27 05:53:56 ] /*******		Extract fonts_from_html files		**********/
+[ 2019-02-27 05:53:56 ] /**************************************************************/
+[ 2019-02-27 05:53:56 ] /*******		End : Extract fonts_from_html files		**********/
+[ 2019-02-27 05:53:56 ] 
+[ 2019-02-27 05:53:56 ] 
+[ 2019-02-27 05:53:56 ] 
+[ 2019-02-27 05:53:56 ] /**************************************************************/
+[ 2019-02-27 05:53:56 ] /*******		Extract xml files		**********/
+[ 2019-02-27 05:53:56 ] /**************************************************************/
+[ 2019-02-27 05:53:56 ] /*******		End : Extract xml files		**********/
+[ 2019-02-27 05:53:56 ] 
+[ 2019-02-27 05:53:56 ] 
+[ 2019-02-27 05:53:56 ] 
+[ 2019-02-27 05:53:56 ] /**************************************************************/
+[ 2019-02-27 05:53:56 ] /*******		Extract txt files		**********/
+[ 2019-02-27 05:53:56 ] /**************************************************************/
+[ 2019-02-27 05:53:56 ] /*******		End : Extract txt files		**********/
+[ 2019-02-27 05:53:56 ] 
+[ 2019-02-27 05:53:56 ] 
+[ 2019-02-27 05:53:56 ] 
+[ 2019-02-27 05:53:56 ] /**************************************************************/
+[ 2019-02-27 05:53:56 ] /*******		Extract script files		**********/
+[ 2019-02-27 05:53:56 ] /**************************************************************/
+[ 2019-02-27 05:53:56 ] file url = https://unpkg.com/sweetalert/dist/sweetalert.min.js
+[ 2019-02-27 05:53:56 ] local_file_full_path = files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/unpkg-com/sweetalert/dist/sweetalert.min.js
+[ 2019-02-27 05:53:56 ] file url 1 = https://unpkg.com/sweetalert/dist/sweetalert.min.js
+[ 2019-02-27 05:53:56 ] scrape_it = 1
+[ 2019-02-27 05:53:56 ] ---------------------------------------
+[ 2019-02-27 05:53:56 ] get_curl_live() function : Start
+[ 2019-02-27 05:53:56 ] ---------------------------------------
+[ 2019-02-27 05:53:56 ] TEST 1
+[ 2019-02-27 05:53:56 ] URL = https://unpkg.com/sweetalert/dist/sweetalert.min.js
+[ 2019-02-27 05:53:56 ] no proxy used ( Test nbr 1/5 )
+[ 2019-02-27 05:53:56 ] useragent = Mozilla/5.0 (X11; Linux i686; rv:14.0) Gecko/20100101 Firefox/14.0 Iceweasel/14.0
+[ 2019-02-27 05:53:56 ] files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/unpkg-com/sweetalert/dist/sweetalert.min.js --> File Created !!!
+[ 2019-02-27 05:53:56 ] -------------------------------------------------------------------------------------------
+[ 2019-02-27 05:53:56 ] file url = https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.0.0/sweetalert2.all.min.js
+[ 2019-02-27 05:53:56 ] local_file_full_path = files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/cdnjs-cloudflare-com/ajax/libs/limonte-sweetalert2/7-0-0/sweetalert2.all.min.js
+[ 2019-02-27 05:53:56 ] file url 1 = https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.0.0/sweetalert2.all.min.js
+[ 2019-02-27 05:53:56 ] scrape_it = 1
+[ 2019-02-27 05:53:56 ] ---------------------------------------
+[ 2019-02-27 05:53:56 ] get_curl_live() function : Start
+[ 2019-02-27 05:53:56 ] ---------------------------------------
+[ 2019-02-27 05:53:56 ] TEST 1
+[ 2019-02-27 05:53:56 ] URL = https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.0.0/sweetalert2.all.min.js
+[ 2019-02-27 05:53:56 ] no proxy used ( Test nbr 1/5 )
+[ 2019-02-27 05:53:57 ] useragent = Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; en-gb) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+[ 2019-02-27 05:53:57 ] files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/cdnjs-cloudflare-com/ajax/libs/limonte-sweetalert2/7-0-0/sweetalert2.all.min.js --> File Created !!!
+[ 2019-02-27 05:53:57 ] -------------------------------------------------------------------------------------------
+[ 2019-02-27 05:53:57 ] file url = https://code.jquery.com/jquery-2.2.4.min.js
+[ 2019-02-27 05:53:57 ] local_file_full_path = files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/code-jquery-com/jquery-2.2.4.min.js
+[ 2019-02-27 05:53:57 ] file url 1 = https://code.jquery.com/jquery-2.2.4.min.js
+[ 2019-02-27 05:53:57 ] scrape_it = 1
+[ 2019-02-27 05:53:57 ] ---------------------------------------
+[ 2019-02-27 05:53:57 ] get_curl_live() function : Start
+[ 2019-02-27 05:53:57 ] ---------------------------------------
+[ 2019-02-27 05:53:57 ] TEST 1
+[ 2019-02-27 05:53:57 ] URL = https://code.jquery.com/jquery-2.2.4.min.js
+[ 2019-02-27 05:53:57 ] no proxy used ( Test nbr 1/5 )
+[ 2019-02-27 05:53:57 ] useragent = Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2227.0 Safari/537.36
+[ 2019-02-27 05:53:57 ] files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/code-jquery-com/jquery-2.2.4.min.js --> File Created !!!
+[ 2019-02-27 05:53:58 ] -------------------------------------------------------------------------------------------
+[ 2019-02-27 05:53:58 ] file url = https://writing-wrangler.herokuapp.com/sketch.js
+[ 2019-02-27 05:53:58 ] local_file_full_path = files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/sketch.js
+[ 2019-02-27 05:53:58 ] file url 1 = https://writing-wrangler.herokuapp.com/sketch.js
+[ 2019-02-27 05:53:58 ] scrape_it = 1
+[ 2019-02-27 05:53:58 ] ---------------------------------------
+[ 2019-02-27 05:53:58 ] get_curl_live() function : Start
+[ 2019-02-27 05:53:58 ] ---------------------------------------
+[ 2019-02-27 05:53:58 ] TEST 1
+[ 2019-02-27 05:53:58 ] URL = https://writing-wrangler.herokuapp.com/sketch.js
+[ 2019-02-27 05:53:58 ] no proxy used ( Test nbr 1/5 )
+[ 2019-02-27 05:53:58 ] useragent = Mozilla/5.0 (Windows NT 6.2; rv:22.0) Gecko/20130405 Firefox/22.0
+[ 2019-02-27 05:53:58 ] files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/sketch.js --> File Created !!!
+[ 2019-02-27 05:53:58 ] -------------------------------------------------------------------------------------------
+[ 2019-02-27 05:53:58 ] file url = https://writing-wrangler.herokuapp.com/count.js
+[ 2019-02-27 05:53:58 ] local_file_full_path = files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/count.js
+[ 2019-02-27 05:53:58 ] file url 1 = https://writing-wrangler.herokuapp.com/count.js
+[ 2019-02-27 05:53:58 ] scrape_it = 1
+[ 2019-02-27 05:53:58 ] ---------------------------------------
+[ 2019-02-27 05:53:58 ] get_curl_live() function : Start
+[ 2019-02-27 05:53:58 ] ---------------------------------------
+[ 2019-02-27 05:53:58 ] TEST 1
+[ 2019-02-27 05:53:58 ] URL = https://writing-wrangler.herokuapp.com/count.js
+[ 2019-02-27 05:53:58 ] no proxy used ( Test nbr 1/5 )
+[ 2019-02-27 05:53:58 ] useragent = Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.47 Safari/537.36
+[ 2019-02-27 05:53:58 ] files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/count.js --> File Created !!!
+[ 2019-02-27 05:53:59 ] -------------------------------------------------------------------------------------------
+[ 2019-02-27 05:53:59 ] file url = https://writing-wrangler.herokuapp.com/download.js
+[ 2019-02-27 05:53:59 ] local_file_full_path = files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/download.js
+[ 2019-02-27 05:53:59 ] file url 1 = https://writing-wrangler.herokuapp.com/download.js
+[ 2019-02-27 05:53:59 ] scrape_it = 1
+[ 2019-02-27 05:53:59 ] ---------------------------------------
+[ 2019-02-27 05:53:59 ] get_curl_live() function : Start
+[ 2019-02-27 05:53:59 ] ---------------------------------------
+[ 2019-02-27 05:53:59 ] TEST 1
+[ 2019-02-27 05:53:59 ] URL = https://writing-wrangler.herokuapp.com/download.js
+[ 2019-02-27 05:53:59 ] no proxy used ( Test nbr 1/5 )
+[ 2019-02-27 05:53:59 ] useragent = Mozilla/5.0 (Windows NT 6.2; rv:21.0) Gecko/20130326 Firefox/21.0
+[ 2019-02-27 05:53:59 ] files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/download.js --> File Created !!!
+[ 2019-02-27 05:53:59 ] -------------------------------------------------------------------------------------------
+[ 2019-02-27 05:53:59 ] file url = https://writing-wrangler.herokuapp.com/color.js
+[ 2019-02-27 05:53:59 ] local_file_full_path = files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/color.js
+[ 2019-02-27 05:53:59 ] file url 1 = https://writing-wrangler.herokuapp.com/color.js
+[ 2019-02-27 05:53:59 ] scrape_it = 1
+[ 2019-02-27 05:53:59 ] ---------------------------------------
+[ 2019-02-27 05:53:59 ] get_curl_live() function : Start
+[ 2019-02-27 05:53:59 ] ---------------------------------------
+[ 2019-02-27 05:53:59 ] TEST 1
+[ 2019-02-27 05:53:59 ] URL = https://writing-wrangler.herokuapp.com/color.js
+[ 2019-02-27 05:53:59 ] no proxy used ( Test nbr 1/5 )
+[ 2019-02-27 05:53:59 ] useragent = Mozilla/5.0 (Windows; U; MSIE 9.0; WIndows NT 9.0; en-US))
+[ 2019-02-27 05:53:59 ] Code = 404
+[ 2019-02-27 05:53:59 ] HTML found = Yes
+[ 2019-02-27 05:53:59 ]     No sleep!
+[ 2019-02-27 05:53:59 ] ----
+[ 2019-02-27 05:53:59 ] TEST 2
+[ 2019-02-27 05:53:59 ] URL = http://writing-wrangler.herokuapp.com/color.js  --> Switch protocol ( Try 'http' )
+[ 2019-02-27 05:53:59 ] no proxy used ( Test nbr 2/5 )
+[ 2019-02-27 05:53:59 ] useragent = Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.67 Safari/537.36
+[ 2019-02-27 05:53:59 ] Code = 404
+[ 2019-02-27 05:53:59 ] HTML found = Yes
+[ 2019-02-27 05:53:59 ]     No sleep!
+[ 2019-02-27 05:53:59 ] ----
+[ 2019-02-27 05:53:59 ] TEST 3
+[ 2019-02-27 05:53:59 ] URL = https://writing-wrangler.herokuapp.com/color.js
+[ 2019-02-27 05:53:59 ] no proxy used ( Test nbr 3/5 )
+[ 2019-02-27 05:53:59 ] useragent = Mozilla/5.0 (Windows NT 6.1; WOW64; rv:21.0) Gecko/20130330 Firefox/21.0
+[ 2019-02-27 05:53:59 ] Code = 404
+[ 2019-02-27 05:53:59 ] HTML found = Yes
+[ 2019-02-27 05:53:59 ]     No sleep!
+[ 2019-02-27 05:53:59 ] ----
+[ 2019-02-27 05:53:59 ] -------------------------------------------------------------------------------------------
+[ 2019-02-27 05:53:59 ] /*******		End : Extract script files		**********/
+[ 2019-02-27 05:53:59 ] 
+[ 2019-02-27 05:53:59 ] 
+[ 2019-02-27 05:53:59 ] 
+[ 2019-02-27 05:53:59 ] /**************************************************************/
+[ 2019-02-27 05:53:59 ] /*******		Extract img files		**********/
+[ 2019-02-27 05:53:59 ] /**************************************************************/
+[ 2019-02-27 05:53:59 ] /*******		End : Extract img files		**********/
+[ 2019-02-27 05:53:59 ] 
+[ 2019-02-27 05:53:59 ] 
+[ 2019-02-27 05:53:59 ] 
+[ 2019-02-27 05:53:59 ] /**************************************************************/
+[ 2019-02-27 05:53:59 ] /*******		Extract background_images files		**********/
+[ 2019-02-27 05:53:59 ] /**************************************************************/
+[ 2019-02-27 05:53:59 ] /*******		End : Extract background_images files		**********/
+[ 2019-02-27 05:53:59 ] 
+[ 2019-02-27 05:53:59 ] 
+[ 2019-02-27 05:53:59 ] 
+[ 2019-02-27 05:53:59 ] /**************************************************************/
+[ 2019-02-27 05:53:59 ] /*******		Extract background_images_in_html files		**********/
+[ 2019-02-27 05:53:59 ] /**************************************************************/
+[ 2019-02-27 05:53:59 ] /*******		End : Extract background_images_in_html files		**********/
+[ 2019-02-27 05:53:59 ] 
+[ 2019-02-27 05:53:59 ] 
+[ 2019-02-27 05:53:59 ] 
+[ 2019-02-27 05:53:59 ] /**************************************************************/
+[ 2019-02-27 05:53:59 ] /*******		Extract swf files		**********/
+[ 2019-02-27 05:53:59 ] /**************************************************************/
+[ 2019-02-27 05:53:59 ] /*******		End : Extract swf files		**********/
+[ 2019-02-27 05:53:59 ] 
+[ 2019-02-27 05:53:59 ] Original url : https://writing-wrangler.herokuapp.com/about - 0/3
+[ 2019-02-27 05:53:59 ] ---------------------------------------
+[ 2019-02-27 05:53:59 ] get_curl_live() function : Start
+[ 2019-02-27 05:53:59 ] ---------------------------------------
+[ 2019-02-27 05:53:59 ] TEST 1
+[ 2019-02-27 05:53:59 ] URL = https://writing-wrangler.herokuapp.com/about
+[ 2019-02-27 05:53:59 ] no proxy used ( Test nbr 1/5 )
+[ 2019-02-27 05:54:00 ] useragent = Mozilla/5.0 (X11; Linux x86_64; rv:12.0) Gecko/20120721 Debian Iceweasel/15.0
+[ 2019-02-27 05:54:00 ] Final url : https://writing-wrangler.herokuapp.com/about( code=200 )
+[ 2019-02-27 05:54:00 ] Original url : https://writing-wrangler.herokuapp.com/gallery - 1/3
+[ 2019-02-27 05:54:00 ] ---------------------------------------
+[ 2019-02-27 05:54:00 ] get_curl_live() function : Start
+[ 2019-02-27 05:54:00 ] ---------------------------------------
+[ 2019-02-27 05:54:00 ] TEST 1
+[ 2019-02-27 05:54:00 ] URL = https://writing-wrangler.herokuapp.com/gallery
+[ 2019-02-27 05:54:00 ] no proxy used ( Test nbr 1/5 )
+[ 2019-02-27 05:54:00 ] useragent = Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; ja-jp) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+[ 2019-02-27 05:54:00 ] Final url : https://writing-wrangler.herokuapp.com/gallery( code=200 )
+[ 2019-02-27 05:54:00 ] Removed external links total ( 0 / 0 )
+[ 2019-02-27 05:54:00 ] Partial Size : 284
+[ 2019-02-27 05:54:00 ] size_limit_KO : 10000
+[ 2019-02-27 05:54:00 ] files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/index.html --> HTML File Created !!!
+[ 2019-02-27 05:54:00 ] ----------------------------------------------------------------------
+[ 2019-02-27 05:54:00 ] update  to_create_arr[0][is_done] = 1
+[ 2019-02-27 05:54:00 ] ( 1 / 2 )  Done - 1 error pages fixed
+[ 2019-02-27 05:54:00 ] ------------------------------------------------------------------
+[ 2019-02-27 05:54:00 ] File name found in to_create_arr
+[ 2019-02-27 05:54:00 ] #####################################################################################################
+[ 2019-02-27 05:54:00 ] ###############https://writing-wrangler.herokuapp.com/about ( Scraping  of 1 / 2 )  - 1 error pages fixed###############
+[ 2019-02-27 05:54:00 ] ###############Local URL = files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/about.html (code = 200) ###############
+[ 2019-02-27 05:54:00 ] ###############Try number = 1###############
+[ 2019-02-27 05:54:00 ] #####################################################################################################
+[ 2019-02-27 05:54:00 ]  Main level =1
+[ 2019-02-27 05:54:00 ] ---------------------------------------
+[ 2019-02-27 05:54:00 ] get_curl_live() function : Start
+[ 2019-02-27 05:54:00 ] ---------------------------------------
+[ 2019-02-27 05:54:00 ] TEST 1
+[ 2019-02-27 05:54:00 ] URL = https://writing-wrangler.herokuapp.com/about
+[ 2019-02-27 05:54:00 ] no proxy used ( Test nbr 1/5 )
+[ 2019-02-27 05:54:00 ] useragent = Mozilla/5.0 (X11; Linux x86_64; rv:14.0) Gecko/20100101 Firefox/14.0.1 Iceweasel/14.0.1
+[ 2019-02-27 05:54:00 ] Original encoding = ASCII
+[ 2019-02-27 05:54:00 ] Final encoding = ASCII
+[ 2019-02-27 05:54:00 ] Language = N/A
+[ 2019-02-27 05:54:00 ] 
+[ 2019-02-27 05:54:00 ] 
+[ 2019-02-27 05:54:00 ] /**************************************************************/
+[ 2019-02-27 05:54:00 ] /*******		Extract css_from_import files		**********/
+[ 2019-02-27 05:54:00 ] /**************************************************************/
+[ 2019-02-27 05:54:00 ] /*******		End : Extract css_from_import files		**********/
+[ 2019-02-27 05:54:00 ] 
+[ 2019-02-27 05:54:00 ] 
+[ 2019-02-27 05:54:00 ] 
+[ 2019-02-27 05:54:00 ] /**************************************************************/
+[ 2019-02-27 05:54:00 ] /*******		Extract pdf files		**********/
+[ 2019-02-27 05:54:00 ] /**************************************************************/
+[ 2019-02-27 05:54:00 ] /*******		End : Extract pdf files		**********/
+[ 2019-02-27 05:54:00 ] 
+[ 2019-02-27 05:54:00 ] 
+[ 2019-02-27 05:54:00 ] 
+[ 2019-02-27 05:54:00 ] /**************************************************************/
+[ 2019-02-27 05:54:00 ] /*******		Extract css files		**********/
+[ 2019-02-27 05:54:00 ] /**************************************************************/
+[ 2019-02-27 05:54:00 ] file url = https://writing-wrangler.herokuapp.com/gallery.css
+[ 2019-02-27 05:54:00 ] local_file_full_path = files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/gallery.css
+[ 2019-02-27 05:54:00 ] file url 1 = https://writing-wrangler.herokuapp.com/gallery.css
+[ 2019-02-27 05:54:00 ] scrape_it = 1
+[ 2019-02-27 05:54:00 ] ---------------------------------------
+[ 2019-02-27 05:54:00 ] get_curl_live() function : Start
+[ 2019-02-27 05:54:00 ] ---------------------------------------
+[ 2019-02-27 05:54:00 ] TEST 1
+[ 2019-02-27 05:54:00 ] URL = https://writing-wrangler.herokuapp.com/gallery.css
+[ 2019-02-27 05:54:00 ] no proxy used ( Test nbr 1/5 )
+[ 2019-02-27 05:54:00 ] useragent = Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; Media Center PC 6.0; InfoPath.3; MS-RTC LM 8; Zune 4.7
+[ 2019-02-27 05:54:00 ] 
+[ 2019-02-27 05:54:00 ] 
+[ 2019-02-27 05:54:00 ] /**************************************************************/
+[ 2019-02-27 05:54:00 ] /*******		Extract css_from_import files		**********/
+[ 2019-02-27 05:54:00 ] /**************************************************************/
+[ 2019-02-27 05:54:00 ] /*******		End : Extract css_from_import files		**********/
+[ 2019-02-27 05:54:00 ] 
+[ 2019-02-27 05:54:00 ] 
+[ 2019-02-27 05:54:00 ] 
+[ 2019-02-27 05:54:00 ] /**************************************************************/
+[ 2019-02-27 05:54:00 ] /*******		Extract fonts_from_css files		**********/
+[ 2019-02-27 05:54:00 ] /**************************************************************/
+[ 2019-02-27 05:54:00 ] /*******		End : Extract fonts_from_css files		**********/
+[ 2019-02-27 05:54:00 ] 
+[ 2019-02-27 05:54:00 ] 
+[ 2019-02-27 05:54:00 ] 
+[ 2019-02-27 05:54:00 ] /**************************************************************/
+[ 2019-02-27 05:54:00 ] /*******		Extract background_images files		**********/
+[ 2019-02-27 05:54:00 ] /**************************************************************/
+[ 2019-02-27 05:54:00 ] /*******		End : Extract background_images files		**********/
+[ 2019-02-27 05:54:00 ] 
+[ 2019-02-27 05:54:00 ] files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/gallery.css --> File Created !!!
+[ 2019-02-27 05:54:00 ] -------------------------------------------------------------------------------------------
+[ 2019-02-27 05:54:00 ] file url = https://writing-wrangler.herokuapp.com/about.css
+[ 2019-02-27 05:54:00 ] local_file_full_path = files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/about.css
+[ 2019-02-27 05:54:00 ] file url 1 = https://writing-wrangler.herokuapp.com/about.css
+[ 2019-02-27 05:54:00 ] scrape_it = 1
+[ 2019-02-27 05:54:00 ] ---------------------------------------
+[ 2019-02-27 05:54:00 ] get_curl_live() function : Start
+[ 2019-02-27 05:54:00 ] ---------------------------------------
+[ 2019-02-27 05:54:00 ] TEST 1
+[ 2019-02-27 05:54:00 ] URL = https://writing-wrangler.herokuapp.com/about.css
+[ 2019-02-27 05:54:00 ] no proxy used ( Test nbr 1/5 )
+[ 2019-02-27 05:54:00 ] useragent = Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:23.0) Gecko/20131011 Firefox/23.0
+[ 2019-02-27 05:54:00 ] 
+[ 2019-02-27 05:54:00 ] 
+[ 2019-02-27 05:54:00 ] /**************************************************************/
+[ 2019-02-27 05:54:00 ] /*******		Extract css_from_import files		**********/
+[ 2019-02-27 05:54:00 ] /**************************************************************/
+[ 2019-02-27 05:54:00 ] /*******		End : Extract css_from_import files		**********/
+[ 2019-02-27 05:54:00 ] 
+[ 2019-02-27 05:54:00 ] 
+[ 2019-02-27 05:54:00 ] 
+[ 2019-02-27 05:54:00 ] /**************************************************************/
+[ 2019-02-27 05:54:00 ] /*******		Extract fonts_from_css files		**********/
+[ 2019-02-27 05:54:00 ] /**************************************************************/
+[ 2019-02-27 05:54:00 ] /*******		End : Extract fonts_from_css files		**********/
+[ 2019-02-27 05:54:00 ] 
+[ 2019-02-27 05:54:00 ] 
+[ 2019-02-27 05:54:00 ] 
+[ 2019-02-27 05:54:00 ] /**************************************************************/
+[ 2019-02-27 05:54:00 ] /*******		Extract background_images files		**********/
+[ 2019-02-27 05:54:00 ] /**************************************************************/
+[ 2019-02-27 05:54:00 ] /*******		End : Extract background_images files		**********/
+[ 2019-02-27 05:54:00 ] 
+[ 2019-02-27 05:54:00 ] files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/about.css --> File Created !!!
+[ 2019-02-27 05:54:01 ] -------------------------------------------------------------------------------------------
+[ 2019-02-27 05:54:01 ] file url = https://writing-wrangler.herokuapp.com/bower_components/sweetalert2/dist/sweetalert2.min.css
+[ 2019-02-27 05:54:01 ] local_file_full_path = files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/bower_components/sweetalert2/dist/sweetalert2.min.css
+[ 2019-02-27 05:54:01 ] file url 1 = https://writing-wrangler.herokuapp.com/bower_components/sweetalert2/dist/sweetalert2.min.css
+[ 2019-02-27 05:54:01 ] scrape_it = 1
+[ 2019-02-27 05:54:01 ] ---------------------------------------
+[ 2019-02-27 05:54:01 ] get_curl_live() function : Start
+[ 2019-02-27 05:54:01 ] ---------------------------------------
+[ 2019-02-27 05:54:01 ] TEST 1
+[ 2019-02-27 05:54:01 ] URL = https://writing-wrangler.herokuapp.com/bower_components/sweetalert2/dist/sweetalert2.min.css
+[ 2019-02-27 05:54:01 ] no proxy used ( Test nbr 1/5 )
+[ 2019-02-27 05:54:01 ] useragent = Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+[ 2019-02-27 05:54:01 ] Code = 404
+[ 2019-02-27 05:54:01 ] HTML found = Yes
+[ 2019-02-27 05:54:01 ]     No sleep!
+[ 2019-02-27 05:54:01 ] ----
+[ 2019-02-27 05:54:01 ] TEST 2
+[ 2019-02-27 05:54:01 ] URL = http://writing-wrangler.herokuapp.com/bower_components/sweetalert2/dist/sweetalert2.min.css  --> Switch protocol ( Try 'http' )
+[ 2019-02-27 05:54:01 ] no proxy used ( Test nbr 2/5 )
+[ 2019-02-27 05:54:01 ] useragent = Mozilla/5.0 (Windows NT 5.1; rv:31.0) Gecko/20100101 Firefox/31.0
+[ 2019-02-27 05:54:01 ] Code = 404
+[ 2019-02-27 05:54:01 ] HTML found = Yes
+[ 2019-02-27 05:54:01 ]     No sleep!
+[ 2019-02-27 05:54:01 ] ----
+[ 2019-02-27 05:54:01 ] TEST 3
+[ 2019-02-27 05:54:01 ] URL = https://writing-wrangler.herokuapp.com/bower_components/sweetalert2/dist/sweetalert2.min.css
+[ 2019-02-27 05:54:01 ] no proxy used ( Test nbr 3/5 )
+[ 2019-02-27 05:54:01 ] useragent = Mozilla/5.0 (Windows; U; MSIE 9.0; WIndows NT 9.0; en-US))
+[ 2019-02-27 05:54:01 ] Code = 404
+[ 2019-02-27 05:54:01 ] HTML found = Yes
+[ 2019-02-27 05:54:01 ]     No sleep!
+[ 2019-02-27 05:54:01 ] ----
+[ 2019-02-27 05:54:01 ] -------------------------------------------------------------------------------------------
+[ 2019-02-27 05:54:01 ] /*******		End : Extract css files		**********/
+[ 2019-02-27 05:54:01 ] 
+[ 2019-02-27 05:54:01 ] 
+[ 2019-02-27 05:54:01 ] 
+[ 2019-02-27 05:54:01 ] /**************************************************************/
+[ 2019-02-27 05:54:01 ] /*******		Extract fonts_from_html files		**********/
+[ 2019-02-27 05:54:01 ] /**************************************************************/
+[ 2019-02-27 05:54:01 ] /*******		End : Extract fonts_from_html files		**********/
+[ 2019-02-27 05:54:01 ] 
+[ 2019-02-27 05:54:01 ] 
+[ 2019-02-27 05:54:01 ] 
+[ 2019-02-27 05:54:01 ] /**************************************************************/
+[ 2019-02-27 05:54:01 ] /*******		Extract xml files		**********/
+[ 2019-02-27 05:54:01 ] /**************************************************************/
+[ 2019-02-27 05:54:01 ] /*******		End : Extract xml files		**********/
+[ 2019-02-27 05:54:01 ] 
+[ 2019-02-27 05:54:01 ] 
+[ 2019-02-27 05:54:01 ] 
+[ 2019-02-27 05:54:01 ] /**************************************************************/
+[ 2019-02-27 05:54:01 ] /*******		Extract txt files		**********/
+[ 2019-02-27 05:54:01 ] /**************************************************************/
+[ 2019-02-27 05:54:01 ] /*******		End : Extract txt files		**********/
+[ 2019-02-27 05:54:01 ] 
+[ 2019-02-27 05:54:01 ] 
+[ 2019-02-27 05:54:01 ] 
+[ 2019-02-27 05:54:01 ] /**************************************************************/
+[ 2019-02-27 05:54:01 ] /*******		Extract script files		**********/
+[ 2019-02-27 05:54:01 ] /**************************************************************/
+[ 2019-02-27 05:54:01 ] file url = https://unpkg.com/sweetalert/dist/sweetalert.min.js
+[ 2019-02-27 05:54:01 ] local_file_full_path = files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/unpkg-com/sweetalert/dist/sweetalert.min.js
+[ 2019-02-27 05:54:01 ] file url 1 = https://unpkg.com/sweetalert/dist/sweetalert.min.js
+[ 2019-02-27 05:54:01 ] scrape_it = 1
+[ 2019-02-27 05:54:01 ] -------------------------------------------------------------------------------------------
+[ 2019-02-27 05:54:01 ] file url = https://writing-wrangler.herokuapp.com/bower_components/sweetalert2/dist/sweetalert2.min.js
+[ 2019-02-27 05:54:01 ] local_file_full_path = files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/bower_components/sweetalert2/dist/sweetalert2.min.js
+[ 2019-02-27 05:54:01 ] file url 1 = https://writing-wrangler.herokuapp.com/bower_components/sweetalert2/dist/sweetalert2.min.js
+[ 2019-02-27 05:54:01 ] scrape_it = 1
+[ 2019-02-27 05:54:01 ] ---------------------------------------
+[ 2019-02-27 05:54:01 ] get_curl_live() function : Start
+[ 2019-02-27 05:54:01 ] ---------------------------------------
+[ 2019-02-27 05:54:01 ] TEST 1
+[ 2019-02-27 05:54:01 ] URL = https://writing-wrangler.herokuapp.com/bower_components/sweetalert2/dist/sweetalert2.min.js
+[ 2019-02-27 05:54:01 ] no proxy used ( Test nbr 1/5 )
+[ 2019-02-27 05:54:01 ] useragent = Mozilla/5.0 (X11; debian; Linux x86_64; rv:15.0) Gecko/20100101 Iceweasel/15.0
+[ 2019-02-27 05:54:01 ] Code = 404
+[ 2019-02-27 05:54:01 ] HTML found = Yes
+[ 2019-02-27 05:54:01 ]     No sleep!
+[ 2019-02-27 05:54:01 ] ----
+[ 2019-02-27 05:54:01 ] TEST 2
+[ 2019-02-27 05:54:01 ] URL = http://writing-wrangler.herokuapp.com/bower_components/sweetalert2/dist/sweetalert2.min.js  --> Switch protocol ( Try 'http' )
+[ 2019-02-27 05:54:01 ] no proxy used ( Test nbr 2/5 )
+[ 2019-02-27 05:54:01 ] useragent = Mozilla/5.0 (Windows NT 6.2; WOW64; rv:21.0) Gecko/20130514 Firefox/21.0
+[ 2019-02-27 05:54:01 ] Code = 404
+[ 2019-02-27 05:54:01 ] HTML found = Yes
+[ 2019-02-27 05:54:01 ]     No sleep!
+[ 2019-02-27 05:54:01 ] ----
+[ 2019-02-27 05:54:01 ] TEST 3
+[ 2019-02-27 05:54:01 ] URL = https://writing-wrangler.herokuapp.com/bower_components/sweetalert2/dist/sweetalert2.min.js
+[ 2019-02-27 05:54:01 ] no proxy used ( Test nbr 3/5 )
+[ 2019-02-27 05:54:02 ] useragent = Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; en-us) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+[ 2019-02-27 05:54:02 ] Code = 404
+[ 2019-02-27 05:54:02 ] HTML found = Yes
+[ 2019-02-27 05:54:02 ]     No sleep!
+[ 2019-02-27 05:54:02 ] ----
+[ 2019-02-27 05:54:02 ] -------------------------------------------------------------------------------------------
+[ 2019-02-27 05:54:02 ] file url = https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.0.0/sweetalert2.all.min.js
+[ 2019-02-27 05:54:02 ] local_file_full_path = files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/cdnjs-cloudflare-com/ajax/libs/limonte-sweetalert2/7-0-0/sweetalert2.all.min.js
+[ 2019-02-27 05:54:02 ] file url 1 = https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.0.0/sweetalert2.all.min.js
+[ 2019-02-27 05:54:02 ] scrape_it = 1
+[ 2019-02-27 05:54:02 ] -------------------------------------------------------------------------------------------
+[ 2019-02-27 05:54:02 ] file url = https://code.jquery.com/jquery-2.2.4.min.js
+[ 2019-02-27 05:54:02 ] local_file_full_path = files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/code-jquery-com/jquery-2.2.4.min.js
+[ 2019-02-27 05:54:02 ] file url 1 = https://code.jquery.com/jquery-2.2.4.min.js
+[ 2019-02-27 05:54:02 ] scrape_it = 1
+[ 2019-02-27 05:54:02 ] -------------------------------------------------------------------------------------------
+[ 2019-02-27 05:54:02 ] file url = https://writing-wrangler.herokuapp.com/sketch.js
+[ 2019-02-27 05:54:02 ] local_file_full_path = files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/sketch.js
+[ 2019-02-27 05:54:02 ] file url 1 = https://writing-wrangler.herokuapp.com/sketch.js
+[ 2019-02-27 05:54:02 ] scrape_it = 1
+[ 2019-02-27 05:54:02 ] -------------------------------------------------------------------------------------------
+[ 2019-02-27 05:54:02 ] file url = https://writing-wrangler.herokuapp.com/count.js
+[ 2019-02-27 05:54:02 ] local_file_full_path = files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/count.js
+[ 2019-02-27 05:54:02 ] file url 1 = https://writing-wrangler.herokuapp.com/count.js
+[ 2019-02-27 05:54:02 ] scrape_it = 1
+[ 2019-02-27 05:54:02 ] -------------------------------------------------------------------------------------------
+[ 2019-02-27 05:54:02 ] file url = https://writing-wrangler.herokuapp.com/download.js
+[ 2019-02-27 05:54:02 ] local_file_full_path = files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/download.js
+[ 2019-02-27 05:54:02 ] file url 1 = https://writing-wrangler.herokuapp.com/download.js
+[ 2019-02-27 05:54:02 ] scrape_it = 1
+[ 2019-02-27 05:54:02 ] -------------------------------------------------------------------------------------------
+[ 2019-02-27 05:54:02 ] file url = https://writing-wrangler.herokuapp.com/gallery.js
+[ 2019-02-27 05:54:02 ] local_file_full_path = files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/gallery.js
+[ 2019-02-27 05:54:02 ] file url 1 = https://writing-wrangler.herokuapp.com/gallery.js
+[ 2019-02-27 05:54:02 ] scrape_it = 1
+[ 2019-02-27 05:54:02 ] ---------------------------------------
+[ 2019-02-27 05:54:02 ] get_curl_live() function : Start
+[ 2019-02-27 05:54:02 ] ---------------------------------------
+[ 2019-02-27 05:54:02 ] TEST 1
+[ 2019-02-27 05:54:02 ] URL = https://writing-wrangler.herokuapp.com/gallery.js
+[ 2019-02-27 05:54:02 ] no proxy used ( Test nbr 1/5 )
+[ 2019-02-27 05:54:02 ] useragent = Mozilla/1.22 (compatible; MSIE 10.0; Windows 3.1)
+[ 2019-02-27 05:54:02 ] files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/gallery.js --> File Created !!!
+[ 2019-02-27 05:54:02 ] -------------------------------------------------------------------------------------------
+[ 2019-02-27 05:54:02 ] /*******		End : Extract script files		**********/
+[ 2019-02-27 05:54:02 ] 
+[ 2019-02-27 05:54:02 ] 
+[ 2019-02-27 05:54:02 ] 
+[ 2019-02-27 05:54:02 ] /**************************************************************/
+[ 2019-02-27 05:54:02 ] /*******		Extract img files		**********/
+[ 2019-02-27 05:54:02 ] /**************************************************************/
+[ 2019-02-27 05:54:02 ] /*******		End : Extract img files		**********/
+[ 2019-02-27 05:54:02 ] 
+[ 2019-02-27 05:54:02 ] 
+[ 2019-02-27 05:54:02 ] 
+[ 2019-02-27 05:54:02 ] /**************************************************************/
+[ 2019-02-27 05:54:02 ] /*******		Extract background_images files		**********/
+[ 2019-02-27 05:54:02 ] /**************************************************************/
+[ 2019-02-27 05:54:02 ] /*******		End : Extract background_images files		**********/
+[ 2019-02-27 05:54:02 ] 
+[ 2019-02-27 05:54:02 ] 
+[ 2019-02-27 05:54:02 ] 
+[ 2019-02-27 05:54:02 ] /**************************************************************/
+[ 2019-02-27 05:54:02 ] /*******		Extract background_images_in_html files		**********/
+[ 2019-02-27 05:54:02 ] /**************************************************************/
+[ 2019-02-27 05:54:02 ] /*******		End : Extract background_images_in_html files		**********/
+[ 2019-02-27 05:54:02 ] 
+[ 2019-02-27 05:54:02 ] 
+[ 2019-02-27 05:54:02 ] 
+[ 2019-02-27 05:54:02 ] /**************************************************************/
+[ 2019-02-27 05:54:02 ] /*******		Extract swf files		**********/
+[ 2019-02-27 05:54:02 ] /**************************************************************/
+[ 2019-02-27 05:54:02 ] /*******		End : Extract swf files		**********/
+[ 2019-02-27 05:54:02 ] 
+[ 2019-02-27 05:54:02 ] Removed external links total ( 0 / 2 )
+[ 2019-02-27 05:54:02 ] Partial Size : 324
+[ 2019-02-27 05:54:02 ] size_limit_KO : 10000
+[ 2019-02-27 05:54:02 ] files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/about.html --> HTML File Created !!!
+[ 2019-02-27 05:54:02 ] ----------------------------------------------------------------------
+[ 2019-02-27 05:54:02 ] update  to_create_arr[1][is_done] = 1
+[ 2019-02-27 05:54:02 ] ( 1 / 2 )  Done - 1 error pages fixed
+[ 2019-02-27 05:54:02 ] ------------------------------------------------------------------
+[ 2019-02-27 05:54:02 ] File name found in to_create_arr
+[ 2019-02-27 05:54:02 ] #####################################################################################################
+[ 2019-02-27 05:54:02 ] ###############https://writing-wrangler.herokuapp.com/gallery ( Scraping  of 2 / 2 )  - 1 error pages fixed###############
+[ 2019-02-27 05:54:02 ] ###############Local URL = files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/gallery.html (code = 200) ###############
+[ 2019-02-27 05:54:02 ] ###############Try number = 1###############
+[ 2019-02-27 05:54:02 ] #####################################################################################################
+[ 2019-02-27 05:54:02 ]  Main level =1
+[ 2019-02-27 05:54:02 ] ---------------------------------------
+[ 2019-02-27 05:54:02 ] get_curl_live() function : Start
+[ 2019-02-27 05:54:02 ] ---------------------------------------
+[ 2019-02-27 05:54:02 ] TEST 1
+[ 2019-02-27 05:54:02 ] URL = https://writing-wrangler.herokuapp.com/gallery
+[ 2019-02-27 05:54:02 ] no proxy used ( Test nbr 1/5 )
+[ 2019-02-27 05:54:02 ] useragent = Mozilla/5.0 (X11; Linux x86_64; rv:12.0) Gecko/20120721 Debian Iceweasel/15.0
+[ 2019-02-27 05:54:02 ] Original encoding = ASCII
+[ 2019-02-27 05:54:02 ] Final encoding = ASCII
+[ 2019-02-27 05:54:02 ] Language = N/A
+[ 2019-02-27 05:54:02 ] 
+[ 2019-02-27 05:54:02 ] 
+[ 2019-02-27 05:54:02 ] /**************************************************************/
+[ 2019-02-27 05:54:02 ] /*******		Extract css_from_import files		**********/
+[ 2019-02-27 05:54:02 ] /**************************************************************/
+[ 2019-02-27 05:54:02 ] /*******		End : Extract css_from_import files		**********/
+[ 2019-02-27 05:54:02 ] 
+[ 2019-02-27 05:54:02 ] 
+[ 2019-02-27 05:54:02 ] 
+[ 2019-02-27 05:54:02 ] /**************************************************************/
+[ 2019-02-27 05:54:02 ] /*******		Extract pdf files		**********/
+[ 2019-02-27 05:54:02 ] /**************************************************************/
+[ 2019-02-27 05:54:02 ] /*******		End : Extract pdf files		**********/
+[ 2019-02-27 05:54:02 ] 
+[ 2019-02-27 05:54:02 ] 
+[ 2019-02-27 05:54:02 ] 
+[ 2019-02-27 05:54:02 ] /**************************************************************/
+[ 2019-02-27 05:54:02 ] /*******		Extract css files		**********/
+[ 2019-02-27 05:54:02 ] /**************************************************************/
+[ 2019-02-27 05:54:02 ] file url = https://writing-wrangler.herokuapp.com/gallery.css
+[ 2019-02-27 05:54:02 ] local_file_full_path = files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/gallery.css
+[ 2019-02-27 05:54:02 ] file url 1 = https://writing-wrangler.herokuapp.com/gallery.css
+[ 2019-02-27 05:54:02 ] scrape_it = 1
+[ 2019-02-27 05:54:02 ] -------------------------------------------------------------------------------------------
+[ 2019-02-27 05:54:02 ] file url = https://writing-wrangler.herokuapp.com/bower_components/sweetalert2/dist/sweetalert2.min.css
+[ 2019-02-27 05:54:02 ] local_file_full_path = files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/bower_components/sweetalert2/dist/sweetalert2.min.css
+[ 2019-02-27 05:54:02 ] file url 1 = https://writing-wrangler.herokuapp.com/bower_components/sweetalert2/dist/sweetalert2.min.css
+[ 2019-02-27 05:54:02 ] scrape_it = 1
+[ 2019-02-27 05:54:02 ] ---------------------------------------
+[ 2019-02-27 05:54:02 ] get_curl_live() function : Start
+[ 2019-02-27 05:54:02 ] ---------------------------------------
+[ 2019-02-27 05:54:02 ] TEST 1
+[ 2019-02-27 05:54:02 ] URL = https://writing-wrangler.herokuapp.com/bower_components/sweetalert2/dist/sweetalert2.min.css
+[ 2019-02-27 05:54:02 ] no proxy used ( Test nbr 1/5 )
+[ 2019-02-27 05:54:02 ] useragent = Mozilla/5.0 (Windows; U; Windows NT 6.0; ja-JP) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+[ 2019-02-27 05:54:02 ] Code = 404
+[ 2019-02-27 05:54:02 ] HTML found = Yes
+[ 2019-02-27 05:54:02 ]     No sleep!
+[ 2019-02-27 05:54:02 ] ----
+[ 2019-02-27 05:54:02 ] TEST 2
+[ 2019-02-27 05:54:02 ] URL = http://writing-wrangler.herokuapp.com/bower_components/sweetalert2/dist/sweetalert2.min.css  --> Switch protocol ( Try 'http' )
+[ 2019-02-27 05:54:02 ] no proxy used ( Test nbr 2/5 )
+[ 2019-02-27 05:54:02 ] useragent = Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET CLR 2.0.50727; Media Center PC 6.0)
+[ 2019-02-27 05:54:02 ] Code = 404
+[ 2019-02-27 05:54:02 ] HTML found = Yes
+[ 2019-02-27 05:54:02 ]     No sleep!
+[ 2019-02-27 05:54:02 ] ----
+[ 2019-02-27 05:54:02 ] TEST 3
+[ 2019-02-27 05:54:02 ] URL = https://writing-wrangler.herokuapp.com/bower_components/sweetalert2/dist/sweetalert2.min.css
+[ 2019-02-27 05:54:02 ] no proxy used ( Test nbr 3/5 )
+[ 2019-02-27 05:54:03 ] useragent = Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
+[ 2019-02-27 05:54:03 ] Code = 404
+[ 2019-02-27 05:54:03 ] HTML found = Yes
+[ 2019-02-27 05:54:03 ]     No sleep!
+[ 2019-02-27 05:54:03 ] ----
+[ 2019-02-27 05:54:03 ] -------------------------------------------------------------------------------------------
+[ 2019-02-27 05:54:03 ] /*******		End : Extract css files		**********/
+[ 2019-02-27 05:54:03 ] 
+[ 2019-02-27 05:54:03 ] 
+[ 2019-02-27 05:54:03 ] 
+[ 2019-02-27 05:54:03 ] /**************************************************************/
+[ 2019-02-27 05:54:03 ] /*******		Extract fonts_from_html files		**********/
+[ 2019-02-27 05:54:03 ] /**************************************************************/
+[ 2019-02-27 05:54:03 ] /*******		End : Extract fonts_from_html files		**********/
+[ 2019-02-27 05:54:03 ] 
+[ 2019-02-27 05:54:03 ] 
+[ 2019-02-27 05:54:03 ] 
+[ 2019-02-27 05:54:03 ] /**************************************************************/
+[ 2019-02-27 05:54:03 ] /*******		Extract xml files		**********/
+[ 2019-02-27 05:54:03 ] /**************************************************************/
+[ 2019-02-27 05:54:03 ] /*******		End : Extract xml files		**********/
+[ 2019-02-27 05:54:03 ] 
+[ 2019-02-27 05:54:03 ] 
+[ 2019-02-27 05:54:03 ] 
+[ 2019-02-27 05:54:03 ] /**************************************************************/
+[ 2019-02-27 05:54:03 ] /*******		Extract txt files		**********/
+[ 2019-02-27 05:54:03 ] /**************************************************************/
+[ 2019-02-27 05:54:03 ] /*******		End : Extract txt files		**********/
+[ 2019-02-27 05:54:03 ] 
+[ 2019-02-27 05:54:03 ] 
+[ 2019-02-27 05:54:03 ] 
+[ 2019-02-27 05:54:03 ] /**************************************************************/
+[ 2019-02-27 05:54:03 ] /*******		Extract script files		**********/
+[ 2019-02-27 05:54:03 ] /**************************************************************/
+[ 2019-02-27 05:54:03 ] file url = https://unpkg.com/sweetalert/dist/sweetalert.min.js
+[ 2019-02-27 05:54:03 ] local_file_full_path = files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/unpkg-com/sweetalert/dist/sweetalert.min.js
+[ 2019-02-27 05:54:03 ] file url 1 = https://unpkg.com/sweetalert/dist/sweetalert.min.js
+[ 2019-02-27 05:54:03 ] scrape_it = 1
+[ 2019-02-27 05:54:03 ] -------------------------------------------------------------------------------------------
+[ 2019-02-27 05:54:03 ] file url = https://writing-wrangler.herokuapp.com/bower_components/sweetalert2/dist/sweetalert2.min.js
+[ 2019-02-27 05:54:03 ] local_file_full_path = files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/bower_components/sweetalert2/dist/sweetalert2.min.js
+[ 2019-02-27 05:54:03 ] file url 1 = https://writing-wrangler.herokuapp.com/bower_components/sweetalert2/dist/sweetalert2.min.js
+[ 2019-02-27 05:54:03 ] scrape_it = 1
+[ 2019-02-27 05:54:03 ] ---------------------------------------
+[ 2019-02-27 05:54:03 ] get_curl_live() function : Start
+[ 2019-02-27 05:54:03 ] ---------------------------------------
+[ 2019-02-27 05:54:03 ] TEST 1
+[ 2019-02-27 05:54:03 ] URL = https://writing-wrangler.herokuapp.com/bower_components/sweetalert2/dist/sweetalert2.min.js
+[ 2019-02-27 05:54:03 ] no proxy used ( Test nbr 1/5 )
+[ 2019-02-27 05:54:03 ] useragent = Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like Gecko) Version/7.0.3 Safari/7046A194A
+[ 2019-02-27 05:54:03 ] Code = 404
+[ 2019-02-27 05:54:03 ] HTML found = Yes
+[ 2019-02-27 05:54:03 ]     No sleep!
+[ 2019-02-27 05:54:03 ] ----
+[ 2019-02-27 05:54:03 ] TEST 2
+[ 2019-02-27 05:54:03 ] URL = http://writing-wrangler.herokuapp.com/bower_components/sweetalert2/dist/sweetalert2.min.js  --> Switch protocol ( Try 'http' )
+[ 2019-02-27 05:54:03 ] no proxy used ( Test nbr 2/5 )
+[ 2019-02-27 05:54:03 ] useragent = Mozilla/5.0 (Windows; U; Windows NT 6.1; cs-CZ) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+[ 2019-02-27 05:54:03 ] Code = 404
+[ 2019-02-27 05:54:03 ] HTML found = Yes
+[ 2019-02-27 05:54:03 ]     No sleep!
+[ 2019-02-27 05:54:03 ] ----
+[ 2019-02-27 05:54:03 ] TEST 3
+[ 2019-02-27 05:54:03 ] URL = https://writing-wrangler.herokuapp.com/bower_components/sweetalert2/dist/sweetalert2.min.js
+[ 2019-02-27 05:54:03 ] no proxy used ( Test nbr 3/5 )
+[ 2019-02-27 05:54:03 ] useragent = Mozilla/5.0 (Windows; U; Windows NT 6.1; cs-CZ) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+[ 2019-02-27 05:54:03 ] Code = 404
+[ 2019-02-27 05:54:03 ] HTML found = Yes
+[ 2019-02-27 05:54:03 ]     No sleep!
+[ 2019-02-27 05:54:03 ] ----
+[ 2019-02-27 05:54:03 ] -------------------------------------------------------------------------------------------
+[ 2019-02-27 05:54:03 ] file url = https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.0.0/sweetalert2.all.min.js
+[ 2019-02-27 05:54:03 ] local_file_full_path = files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/cdnjs-cloudflare-com/ajax/libs/limonte-sweetalert2/7-0-0/sweetalert2.all.min.js
+[ 2019-02-27 05:54:03 ] file url 1 = https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.0.0/sweetalert2.all.min.js
+[ 2019-02-27 05:54:03 ] scrape_it = 1
+[ 2019-02-27 05:54:03 ] -------------------------------------------------------------------------------------------
+[ 2019-02-27 05:54:03 ] file url = https://code.jquery.com/jquery-2.2.4.min.js
+[ 2019-02-27 05:54:03 ] local_file_full_path = files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/code-jquery-com/jquery-2.2.4.min.js
+[ 2019-02-27 05:54:03 ] file url 1 = https://code.jquery.com/jquery-2.2.4.min.js
+[ 2019-02-27 05:54:03 ] scrape_it = 1
+[ 2019-02-27 05:54:03 ] -------------------------------------------------------------------------------------------
+[ 2019-02-27 05:54:03 ] file url = https://writing-wrangler.herokuapp.com/sketch.js
+[ 2019-02-27 05:54:03 ] local_file_full_path = files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/sketch.js
+[ 2019-02-27 05:54:03 ] file url 1 = https://writing-wrangler.herokuapp.com/sketch.js
+[ 2019-02-27 05:54:03 ] scrape_it = 1
+[ 2019-02-27 05:54:03 ] -------------------------------------------------------------------------------------------
+[ 2019-02-27 05:54:03 ] file url = https://writing-wrangler.herokuapp.com/count.js
+[ 2019-02-27 05:54:03 ] local_file_full_path = files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/count.js
+[ 2019-02-27 05:54:03 ] file url 1 = https://writing-wrangler.herokuapp.com/count.js
+[ 2019-02-27 05:54:03 ] scrape_it = 1
+[ 2019-02-27 05:54:03 ] -------------------------------------------------------------------------------------------
+[ 2019-02-27 05:54:03 ] file url = https://writing-wrangler.herokuapp.com/download.js
+[ 2019-02-27 05:54:03 ] local_file_full_path = files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/download.js
+[ 2019-02-27 05:54:03 ] file url 1 = https://writing-wrangler.herokuapp.com/download.js
+[ 2019-02-27 05:54:03 ] scrape_it = 1
+[ 2019-02-27 05:54:03 ] -------------------------------------------------------------------------------------------
+[ 2019-02-27 05:54:03 ] file url = https://writing-wrangler.herokuapp.com/gallery.js
+[ 2019-02-27 05:54:03 ] local_file_full_path = files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/gallery.js
+[ 2019-02-27 05:54:03 ] file url 1 = https://writing-wrangler.herokuapp.com/gallery.js
+[ 2019-02-27 05:54:03 ] scrape_it = 1
+[ 2019-02-27 05:54:03 ] -------------------------------------------------------------------------------------------
+[ 2019-02-27 05:54:03 ] /*******		End : Extract script files		**********/
+[ 2019-02-27 05:54:03 ] 
+[ 2019-02-27 05:54:03 ] 
+[ 2019-02-27 05:54:03 ] 
+[ 2019-02-27 05:54:03 ] /**************************************************************/
+[ 2019-02-27 05:54:03 ] /*******		Extract img files		**********/
+[ 2019-02-27 05:54:03 ] /**************************************************************/
+[ 2019-02-27 05:54:03 ] /*******		End : Extract img files		**********/
+[ 2019-02-27 05:54:03 ] 
+[ 2019-02-27 05:54:03 ] 
+[ 2019-02-27 05:54:03 ] 
+[ 2019-02-27 05:54:03 ] /**************************************************************/
+[ 2019-02-27 05:54:03 ] /*******		Extract background_images files		**********/
+[ 2019-02-27 05:54:03 ] /**************************************************************/
+[ 2019-02-27 05:54:03 ] /*******		End : Extract background_images files		**********/
+[ 2019-02-27 05:54:03 ] 
+[ 2019-02-27 05:54:03 ] 
+[ 2019-02-27 05:54:03 ] 
+[ 2019-02-27 05:54:03 ] /**************************************************************/
+[ 2019-02-27 05:54:03 ] /*******		Extract background_images_in_html files		**********/
+[ 2019-02-27 05:54:03 ] /**************************************************************/
+[ 2019-02-27 05:54:03 ] /*******		End : Extract background_images_in_html files		**********/
+[ 2019-02-27 05:54:03 ] 
+[ 2019-02-27 05:54:03 ] 
+[ 2019-02-27 05:54:03 ] 
+[ 2019-02-27 05:54:03 ] /**************************************************************/
+[ 2019-02-27 05:54:03 ] /*******		Extract swf files		**********/
+[ 2019-02-27 05:54:03 ] /**************************************************************/
+[ 2019-02-27 05:54:03 ] /*******		End : Extract swf files		**********/
+[ 2019-02-27 05:54:03 ] 
+[ 2019-02-27 05:54:03 ] Removed external links total ( 0 / 0 )
+[ 2019-02-27 05:54:03 ] Partial Size : 344
+[ 2019-02-27 05:54:03 ] size_limit_KO : 10000
+[ 2019-02-27 05:54:03 ] files/live/writing-wrangler.herokuapp.com_bperalta96_gmail.com_xh4y8whvmee/gallery.html --> HTML File Created !!!
+[ 2019-02-27 05:54:03 ] ----------------------------------------------------------------------
+[ 2019-02-27 05:54:03 ] update  to_create_arr[2][is_done] = 1
+[ 2019-02-27 05:54:03 ] ( 2 / 2 )  Done - 1 error pages fixed
+[ 2019-02-27 05:54:03 ] Final Size : 344
