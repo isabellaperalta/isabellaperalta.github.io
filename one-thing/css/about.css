@@ -6,10 +6,30 @@ html,body {
 
 }
 
-img {
-align:center;
+
+#about {
+font-family:Serif;
+color:black;
+font-size: 3rem;
+display: inline;
+text-align: center;
 }
 
+.description {
+  max-width: 60em;
+  text-align: justify;
+  padding-bottom: 150px;
+  font-family: Lato;
+  font-size: 1.2em;
+  width: 960px;
+  position: relative;
+  margin:0 auto;
+  line-height: 1.9em;
+}
+
+
+img {
+align:center;
 }
 
 #wrap {min-height: 100%;}
@@ -78,18 +98,6 @@ body { font-size:100%;}
 body { font-size:120%;}
 }
 
-.description {
-  max-width: 60em;
-  text-align: justify;
-  padding-bottom: 150px;
-  font-family: Lato;
-  font-size: 1.2em;
-  width: 960px;
-  position: relative;
-  margin:0 auto;
-  line-height: 1.9em;
-}
-
 
 .bodytext {
     padding-bottom: 150px;
@@ -103,14 +111,6 @@ body { font-size:120%;}
 }
 }
 
-
-#about {
-font-family:Serif;
-color:black;
-font-size: 3rem;
-display: inline;
-text-align: center;
-}
 
 /* Typing Text */
 
