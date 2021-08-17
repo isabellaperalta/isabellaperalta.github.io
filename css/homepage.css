@@ -1,0 +1,38 @@
+body {
+      background-color: #f3f0e2;
+      background-size: 30px 30px;
+      background-image: linear-gradient(to right, #cccccc 1px, transparent 1px),
+                        linear-gradient(to bottom, #cccccc 1px, transparent 1px);
+      background-repeat: repeat;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+td {
+    padding: 40px;
+}
+
+li {
+    float: right;
+    height: 35px;
+    margin: 0px 40px 0px 0px;
+    color: #000;
+    text-align: right;
+    padding: 10px 5px;
+    width: 250px;
+    list-style-type:none;
+    font-family: monospace;
+    font-size: 1em;
+    color: #e87c64;
+}
+
+a {
+  color: #e87c64;
+}
+
+a:hover{
+  color: hotpink;
+}
