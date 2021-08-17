@@ -56,7 +56,7 @@ hr {
   margin-bottom: 40px;
 }
 
-pre{
+pre {
   overflow-x: scroll;
   background-color: white;
   color:#262626;
@@ -79,7 +79,7 @@ a {
   text-decoration: none;
 }
 
-a:hover{
+a:hover {
   color: hotpink;
 }
 
