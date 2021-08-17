@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Isa Peralta | HTML Basics </title>
+    <meta name="author" content="Isa Peralta">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+    <link href="favicon.ico" rel="icon" type="image/x-icon"/>
+    <link rel="stylesheet" href="css/htmlbasics.css">
+</head>
+<body>
+  <div style="width:100%" class="responsive">
+    <div class="content">
+      <div class="info">
+        <!-- I see you're looking at my code. Very sneaky.-->
+        <h1>HTML Basics</h1>
+        <p><span class="white"><strong>Welcome to HTML Basics!</strong></span></p>
+        <p>Before we start building a basic web page, let’s discuss some important points.</p>
+        <p><strong>HTML</strong> stands for <span class="blue">HyperText Markup Language.</span></p>
+        <p>We use HTML to create the structure of a website and its different web pages.
+           (Remember that a website is made of different web pages, but not vice versa.)</p>
+        <p><strong><span class="yellow">FUN FACT:</span></strong> If you’re using Google Chrome, right-click on a web page and choose "View page source."
+           You’ll see the web page’s source code!</p>
+        <p>But wait. Why should I even learn HTML?</p>
+        <p>In addition to creating websites with HTML, you can also use this markup language to edit other things,
+           like newsletters and blog templates. Future workshops will teach you how to use CSS and JavaScript alongside
+          HTML so that you can make more dynamic and interactive websites.</p>
+
+        <hr>
+
+        <p>All right, let’s start learning about elements!</p>
+        <p>HTML is made up of <span class="yellow">elements</span> – we can’t build our basic web pages with them.</p>
+            <ul>
+              <li>Elements are made up of tags and content. Remember that content (text, images, videos, etc.)
+              goes inside opening and closing tags. We use <span class="blue">opening(<)</span> and <span class="blue">closing(>)</span> angle brackets for tagss.
+              <li>Remember to include a <span class="blue">forward slash (/)</span> in your closing tag or else the rest of your elements will be affected!
+            </ul>
+
+        <pre>&lt;p>I love HTML!&lt;/p></pre>
+
+        <p>In this example, we have <span class="blue">&lt;h3></span>, our opening tag. (h3 means Heading 3. It will make your text the web page’s main headline i.e.,
+           bigger than the rest of the text on your page.)</p>
+        <p>Our content is the sentence: <h3>I love HTML!</h3></p>
+        <p><span class="blue">&lt;/h3></span> is our closing tag.
+        <p>If we don’t include the forward slash in the closing tag, everything we write after "I love HTML!" will look like this:
+        <p><h3>I love HTML! Everything I write after this is also yellow!</h3></p>
+
+        <p>Remember that we have tags for different headings and sub-headings that can change the size of your text.
+        <br>The smaller the number, the bigger the text.
+          <br><h1>&lt;h1> looks like this.</h1> <h5>&lt;h5> looks like this.</h5>
+        <p>Other important tags include <span class="blue">&lt;p>&lt;/p></span> (to make a paragraph), <span class="blue">&lt;ol>&lt;/ol></span> (to make an ordered list),
+           <span class="blue">&lt;em>&lt;/em></span> (to make your text <em>italic</em>), <span class="blue">&lt;strong>&lt;/strong></span> (to make your text <strong>bold</strong>),
+           <span class="blue">&lt;u>&lt;/u></span> (to <u>underline</u> your text), and <span class="blue">&lt;ul>&lt;/ul></span> (to make an unordered list).
+           <br>We’ll talk about these later on.</p>
+
+        <hr>
+
+        <p><h2>And now, time to code!</h2></p>
+        <p>What we’ve discussed so far was just a brief overview of HTML.
+           Now, let’s follow these steps to start building our own web pages and learning as we go.</p>
+
+        <p>1. Open the application <span class="white">Atom</span> and create a new file. Name it <span class="white">index.html</span> and save it. (Remember, we use the extension <span class="white">.html</span> for HTML files.)
+        <p>2. To make it clear to web browsers that we are using HTML, we need to add the document type declaration <span class="blue">&lt;!DOCTYPE html></span>.
+           This instruction will ensure our web pages’ elements load properly.
+
+          <pre><p>&lt;!DOCTYPE html></pre>
+
+        <p>3. Type <span class="blue">&lt;html></span> and <span class="blue">&lt;/html></span> under <span class="blue">&lt;!DOCTYPE html></span>. Everything we want to include in our web page will go in between them. </p>
+          <pre><p>&lt;!DOCTYPE html><br>&lt;html><br>&lt;/html></pre>
+
+        <p>4. Add <span class="blue">lang="en-US"</span> after <span class="blue">html</span> so it’s clear to web browsers that our code is using U.S. English.</p>
+        <pre><p>&lt;!DOCTYPE html><br>&lt;html lang="en-US"><br>&lt;/html></pre>
+
+        <p>5. Add <span class="blue">&lt;head></span> and <span class="blue">&lt;/head></span> to your code. Important information (aka "metadata") about your web page will be included here,
+           such as the title of your web page. Remember that this information won’t show up on your web page!</p>
+
+        <p>6. Type <span class="blue">&lt;title></span> and <span class="blue">&lt;/title></span> after <span class="blue">&lt;head></span>. Think of a title for your web page,
+           then add it between <span class="blue">&lt;title></span> and <span class="blue">&lt;/title>.</span></p>
+
+        <pre><p>&lt;!DOCTYPE html><br>&lt;html lang="en-US">
+            <br>&lt;head><br>&lt;title>All About Corgis&lt;/title><br>&lt;/head>
+            <br>&lt;/html></pre>
+
+        <p>7. Let’s check what we have so far using a web browser.
+          Click your HTML file and notice that the title of your web page shows up on one of your web browser’s tabs!</p>
+
+        <p>8. Now, let’s get back to our code. Before we move on to the main content of our web page, we need to include some more important elements.</p>
+
+        <pre><p>&lt;meta charset="UTF-8"><br>&lt;meta http-equiv="X-UA-Compatible" content="ie=edge"></pre>
+
+        <p>We have to add these elements underneath <span class="blue">&lt;title>All About Corgis&lt;/title></span>. Why? Well,
+        <span class="blue">&lt;meta charset="UTF-8"></span> is great because it tells your web browser convert typed characters into machine-readable code.
+        <span class="blue">&lt;meta http-equiv="X-UA-Compatible" content="ie=edge"></span> is important because if you’re using Internet Explorer (IE),
+        your content will be displayed using the highest version of IE available.</p>
+
+        <p>9. Okay, now that that’s out of the way, let’s add some fun content to our web pages!
+        First, let’s start with adding opening and closing body tags to our code after <span class="blue">&lt;/head></span>.
+        Everything in between these <span class="blue">&lt;body></span> and <span class="blue">&lt;/body></span> tags will be visible when viewing your web page.</p>
+
+        <pre><p>&lt;!DOCTYPE html><br>&lt;html lang="en-US">
+            <br>&lt;head><br>&lt;title>All About Corgis&lt;/title><br>&lt;meta charset="UTF-8"><br>&lt;meta http-equiv="X-UA-Compatible" content="ie=edge"><br>&lt;/head>
+            <br>&lt;body><br>&lt;/body>
+            <br>&lt;/html></pre>
+
+        <p>What are some things we can add to the body?</p>
+
+        <hr>
+
+        <p><h2>Headings</h2></p>
+
+        <p>As previously mentioned, we can include headings of different sizes to our web pages.
+          Using headings can be a great way to organize our content and draw attention to certain sections of a web page.</p>
+
+        <p>We use <span class="blue">&lt;h1></span> for main headings, and <span class="blue">&lt;h2></span> to <span class="blue">&lt;h6></span> are for subheadings. The smaller the number, the larger the text.</p>
+
+        <p><h1>h1</h1></p>
+        <p><h2>h2</h2></p>
+        <p><h3>h3</h3></p>
+        <p><h4>h4</h4></p>
+        <p><h5>h5</h5></p>
+        <p><h6>h6</h6></p>
+
+        <p>Try adding one main heading and at least one subheading to your web page!</p>
+
+        <hr>
+
+        <p><h2>Paragraph and Line Breaks</h2></p>
+
+        <span class="blue">&lt;p>&lt;/p></span> are for paragraphs.
+        <span class="blue">&lt;br></span> is for line breaks (remember, there’s no closing tag for this one!)
+
+        <p>If you have a large block of text or even a line of text that you want to include in your web page, you can use <span class="blue">&lt;p></p></span>
+
+        <pre><p>&lt;p>According to Welsh legend, the corgi is an "enchanted dog" favored by fairies and elves.&lt;/p></pre></p>
+
+        <p>If you want to add a single space between lines of text, you can use <span class="blue">&lt;br></span></p>
+
+        <p>Remember that <span class="blue">&lt;br></span> is a self-closing tag, so you don’t need to type <span class="blue">&lt;/br></span>!</p>
+
+        <pre><p>&lt;p>Queen Elizabeth II has had more than<br>&lt;br>30 corgis in her lifetime. She currently has two dorgis<br>&lt;br>(corgi/dachshund mixes) named Candy and Vulcan.&lt;/p></pre>
+
+        <p>will show up as:</p>
+            <span class="white">
+            <p>Queen Elizabeth II has had more than
+            <br>30 corgis in her lifetime. She currently has two dorgis
+            <br>(corgi/dachshund mixes) named Candy and Vulcan.</p>
+            </span>
+
+        <hr>
+
+        <p><h2>Lists</h2></p>
+
+        <p>There are two kinds of lists we can make using HTML: <span class="white">unordered lists</span> and <span class="white">ordered lists</span>.</p>
+
+        <p><h3>Unordered lists &lt;ul></h3>
+        <p>To add bullet points to a list, we use the tag <span class="blue">&lt;li></span> for each item.</p>
+        <pre><ul>&lt;ul>
+              <br>&lt;li>Pembroke Welsh Corgi&lt;/li><br>&lt;li>Cardigan Welsh Corgi&lt;/li><br>&lt;li>Dorgi (Dachshund+Corgi)&lt;/li><br>&lt;li>Corsky (Husky+Corgi)&lt;/li><br>&lt;li>Coroodle (Poodle+Corgi)&lt;/li><br>&lt;li>Labracorgi (Labrador+Corgi)&lt;/li>
+             <br>&lt;/ul></pre>
+
+        <p>On your web browser, this list will look like this:</p>
+            <span class="white">
+            <ul>
+              <li>Pembroke Welsh Corgi</li>
+              <li>Cardigan Welsh Corgi</li>
+              <li>Dorgi (Dachshund+Corgi)</li>
+              <li>Corsky (Husky+Corgi)</li>
+              <li>Coroodle (Poodle+Corgi)</li>
+              <li>Labracorgi (Labrador+Corgi)</li>
+            </ul>
+            </span>
+
+        <p><h3>Ordered lists &lt;ol></h3></p>
+        <p>To add numbers to a list, we also use the tag <span class="blue">&lt;li></span> for each item. We can use numbered lists for various reasons,
+           from ranking items to showing the steps of a procedure or process.
+
+        <pre><p>&lt;h2>Why corgis are the best dogs:&lt;/h2>
+            &lt;ol>
+              &lt;li>Corgis love people&lt;/li>
+              &lt;li>Corgis love exercise&lt;/li>
+              &lt;li>Corgis are happy, active dogs&lt;/li>
+            &lt;ol></pre>
+
+        <p>On your web browser, this list will look like this:</p>
+
+        <h2>Why corgis are the best dogs:</h2>
+              <span class="white">
+              <ol>
+                <li>Corgis love people</li>
+                <li>Corgis love exercise</li>
+                <li>Corgis are happy, active dogs</li>
+              </ol>
+              </span>
+
+        <hr>
+
+        <p><h2>Links</h2></p>
+
+        <p>To include a link to another web page or website, we use <span class="blue">&lt;a href=""></span> and <span class="blue">&lt;/a></span>.
+           We include the full link between the quotation marks, and we write the clickable text between the closing angle bracket of
+           <span class="blue">&lt;a href=""></span> and the opening angle bracket of <span class="blue">&lt;/a></span>.
+
+        <pre><p>&lt;a href="https://corgithings.com/"> Click here to buy Corgi things for Corgi people!&lt;/a></pre>
+
+        <p>The output will look like this:</p>
+
+        <p><u><a href="https://corgithings.com/">Click here to buy Corgi things for Corgi people!</a></u></p>
+
+        <hr>
+
+        <p><h2>Images</h2></p>
+
+        <p>To add an image to your web page, you need the <span class="blue">&lt;img></span> tag. Like <span class="blue">&lt;br></span> (the line break tag), <span class="blue">&lt;img></span> is a self-closing tag.</p>
+        <p>You also need to include <span class="blue">src=""</span>, which is an attribute that determines where your image comes from. If you want your image to be from an
+           online source, you can copy + paste the image's link.</p>
+
+        <pre><p>&lt;img src="https://i.pinimg.com/474x/ee/6b/4a/ee6b4aa13fb636d1f97050906a5b4dcf.jpg"></pre>
+
+        <p><img src="https://i.pinimg.com/474x/ee/6b/4a/ee6b4aa13fb636d1f97050906a5b4dcf.jpg"></p></img></src>
+
+        <p>If you want to include your own image, save the image in the same folder as your index.html file.
+           Include the name of your image, and make sure to include the image’s extension (such as .png or .jpg).</p>
+
+        <pre><p>&lt;img src="cutecorgi.jpg"></p></pre>
+
+        <p>To make our web pages more accessible, add alternative text by writing a short description of what the image is.
+           Screen reading software, for example, will be able to inform your website viewers
+           (such as those who are visually impaired) what the image is about.</p>
+
+        <p>Having alternative text is also useful when your website viewers aren’t able to fully load all the contents of your web page.
+           They can move their cursor over any areas where the images haven’t loaded and read what you’ve written for the alt attribute.</p>
+
+        <p>To add the alt attribute, type <span class="blue">alt=""</span> after you indicate the source of your image.</p>
+
+        <pre><p>&lt;img src="cutecorgi.jpg" alt="A cute corgi"></pre>
+
+        <hr>
+
+        <p><h2>One last thing!</h2></p>
+
+        <p>Take a look at your code. Is it easy to read? Do you think it could be organized in a better way?</p>
+        <p>When you code, remember that it’s best practice to use <span class="white">indentation</span> and <span class="white">whitespace</span>.
+           <br>Having neat, organized code is helpful when you or other web developers want to go through your code.</p>
+        <p>Web browsers don’t follow the spacing of your code (that’s why we have tags such as <span class="blue">&lt;br></span>),
+           so you can include various indents and line spaces that will never show up on your web page.</p>
+        <p>Which example is easier to read?</p>
+
+        <img src="img/examples.png" alt="Examples of messy and neat code" class="responsive">
+
+
+        <p>Definitely the first example. Why? Because there’s more than one line of code! Nothing’s squished together.</p>
+        Also keep in mind that A uses indentation (which you can also use by hitting the space and tab keys).
+        Anything that’s nested in something (such as the <span class="blue">&lt;li></span> tag in the <span class="blue">&lt;ul></span> tag) should be indented.</p>
+
+        <hr>
+
+        <p>And that’s it! Now you can make a simple web page. In our next workshop, we’re going to learn how to
+           make our websites look more aesthetic by using <span class="white">CSS (Cascading Style Sheets)</span>.</p>
+
+      </div>
+    </div>
+  </div>
+      <center><div class="footer">
+        <li><a target="_blank" href="https://isabellaperalta.github.io/">< BACK TO HOME</a></li>
+      </div></center>
+</body>
+</html>
