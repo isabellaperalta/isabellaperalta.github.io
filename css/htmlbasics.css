@@ -70,7 +70,7 @@ pre{
     list-style-type:none;
     font-family: monospace;
     font-size: 1.1em;
-    color: #85aed5;
+    color: #85aed5 !important; 
     padding-bottom: 50px;
 }
 
