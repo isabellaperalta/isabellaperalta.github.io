@@ -1,6 +1,6 @@
 body {
-      background-color: #262626;
-      color: #c9a4c9;
+  background-color: #262626;
+  color: #c9a4c9;
 }
 
 .responsive {
@@ -69,13 +69,13 @@ pre {
 }
 
 .footer {
-    text-align: “center”;
-    height: 35px;
-    list-style-type:none;
-    font-family: monospace;
-    font-size: 1.1em;
-    color: hotpink !important; 
-    padding-bottom: 50px;
+  text-align: “center”;
+  height: 35px;
+  list-style-type:none;
+  font-family: monospace;
+  font-size: 1.1em;
+  color: hotpink !important; 
+  padding-bottom: 50px;
 }
 
 a {
