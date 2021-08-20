@@ -25,6 +25,10 @@ body {
   padding-right: 15%;
 }
 
+.corgi {
+  max-width: 300px;
+}
+
 h1 {
   color: #d8af86;
 }
