@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Isa Peralta | CSS Basics </title>
+    <meta name="author" content="Isa Peralta">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+    <link href="favicon.ico" rel="icon" type="image/x-icon"/>
+    <link rel="stylesheet" href="css/cssbasics.css">
+</head>
+<body>
+  <div style="width:100%" class="responsive">
+    <div class="content">
+      <div class="info">
+      <!-- I see you're looking at my code. You're the CSS to my HTML.-->
+      <h1>CSS Basics</h1>
+      <p>We use <span class="pink">HTML</span> to create basic web pages, but we can make them look a million times better using <span class="pink">CSS (Cascading Style sheets)</span>.</p>
+      <p>With CSS, we can alter a lot of different things, from <span class="pink">HTML</span> font sizes</span> and
+      <span class="pink">HTML</span> font colors</span> to <span class="pink">HTML</span> background images</span>!</p>
+
+      <hr>
+
+      <p>Let’s start!</p>
+      <p>First, let’s create a <span class="pink">CSS file</span>. Open <span class="pink">Atom</span> and save a new file as <span class="pink">style.css</span>.</p>
+      <p>Then, we need to link our CSS file to our HTML file. (If we don’t do this, the HTML file cannot find our CSS file).</p>
+
+      <p>To do this, we add <span class="code">&lt;link href="style.css" rel="stylesheet"></span> in between our <span class="code">&lt;head></span> and <span class="code">&lt;/head></span> tags.</p>
+      <p>Open up your HTML file and try it out! After linking your CSS file, your code should look something like this:</p>
+
+      <pre><p>&lt;!DOCTYPE html><br>&lt;html lang="en-US"><br>&lt;head><br>  &lt;link href="style.css" type="text/css"><br>  &lt;meta charset="UTF-8"><br>  &lt;meta http-equiv="X-UA-Compatible" content="ie=edge"><br>&lt;/head></p></pre>
+
+      <p>Remember to save your <span class="pink">style.css</span> file in the same folder as your HTML file! (It’s best practice to store your different files in the same directory.)</p>
+
+      <hr>
+
+      <h2>The CSS Ruleset</h2>
+
+      <p>Before we start writing some CSS, we need to understand the <span class="pink">CSS ruleset</span>.</p>
+
+      <p>In this ruleset, <span class="code">h1</span> is our <span class="pink">selector</span>.
+      In our HTML file, we write <span class="code">&lt;h1></span> to specify the Heading 1 tag.
+      In our CSS file, we just write it out without opening and closing brackets.</p>
+
+      <pre><p><span class="hotpink">h1</span>{<br>  font-size: 12px;<br>}</pre>
+
+      <p>Then we have the <span class="pink">property</span>, as shown below. This is the characteristic of our selector that we want to change.
+      In this example, we want to change the font size of Heading 1, so we type <span class="code">font-size</span>.</p>
+
+      <pre><p>h1{<br><span class="hotpink">  font-size:</span> 12px;<br>}</pre>
+
+      <p><span class="pink">Note:</span> There are a ton of properties out there (e.g., <span class="code">font-family, font-weight, text-align, color, background-color, font-size</span>)!
+      But you don’t need to remember them all --  as long as you have access to Google, you’re good!</p>
+
+      <p>In the example below, <span class="code">12px</span> is our value. The value is what you want your property to be.
+      <span class="code">12px</span> is the value of <span class="code">font-size.</span>
+      What are some other values you can think of? (Here are some: <span class="code">pink</span> for <span class="code">background-color</span>, <span class="code"> Arial</span> for <span class="code">font-family</span>)</p>
+
+      <pre><p>h1{<br>  font-size:<span class="hotpink"> 12px</span>;<br>}</pre>
+
+      <p>Notice that there’s a semicolon <span class="code">;</span> after your value. Never forget it!</p>
+
+      <pre><p>h1{<br>  font-size: 12px<span class="hotpink">;</span><br>}</pre>
+
+      <p>One last thing – <span class="pink">the declaration block</span>.
+      <p>In our example, <span class="code">{ font-size: 12px; }</span> is the declaration block.
+      It consists of opening and closing brackets, as well as the property, the value, and the semicolon.</p>
+
+      <pre><p>h1<span class="hotpink">{<br>  font-size: 12px;<br>}</span></pre>
+
+      <p>Never forget the opening and closing brackets!</p>
+
+      <hr>
+
+      <h2>Classes and IDs</h2>
+      <p>What happens when we have various elements (such as ten paragraphs, in a single web page)
+      and want to change just one of them? That’s where classes come in handy!</p>
+
+      <h3>Classes vs. IDs</h3>
+
+      <p>We use <span class="pink">classes</span> when we want to apply a style to <span class="pink">several elements</span>.
+      <br>We use <span class="pink">IDs</span> when we want to apply a style to <span class="pink">just one unique element</span>.</p>
+
+      <p>For example, if we just want one paragraph in our code to have blue text, we can give it an ID.</p>
+
+      <pre><p>&lt;p id="blue">I am blue!&lt;/p></pre>
+
+      <p>We include a <span class="code">#</span> before the name of an ID. In our CSS file, we would first type:</p>
+
+      <pre><p>#blue {
+      <br>}</pre>
+
+      <p>What do we need to type for our property and value to make our text blue?
+      <br>If you thought <span class="code">color:blue;</span> you’re right!</p>
+
+      <pre><p>#blue {<br>  color: blue;<br>}</pre>
+
+      <p>What about classes? Insead of a <span class="code">#</span>, we include a period <span class="code">.</span> before the name of the class.
+
+      <p>If my HTML file has <span class="code">&lt;p class="yellow">I am yellow!&lt;/p></span> then for my CSS file I would type:</p>
+
+      <pre><p>.yellow {<br>  color: yellow;<br>}</pre>
+
+      <p>So for all the paragraphs you want to have yellow text, you would give all of them the <span class="code">.yellow</span> class.</p>
+
+      <hr>
+
+      <h2>Pseudo-what?</h2>
+
+      <p>Now it’s time to go even more in-depth. We’re now going to try out some <span class="pink">pseudo-class selectors</span>.</p>
+      <p>These are primarily used when we want to make our website <span class="pink">more interactive</span>. For example, when you hover over a link the text changes color,
+      or when you hover over an image and its colors suddenly fade.</p>
+
+      <p>We need to use a colon <span class="code">:</span> to add a pseudo-class. Again, there are a ton of pseudo-classes out there, so don’t hesitate to look them up. Google is your friend!</p>
+      <p>For this example, we’re going to use <span class="code">a:hover</span>. This will let us change the color of a link once we hover over it with a cursor.</p>
+
+      <pre><p>a:hover {<br>  color: rgb(255, 0, 157);<br>}</pre>
+
+      <p>For this example, I chose hot pink, so all of the links of my web page will turn hot pink whenever my cursor hovers over them.</p>
+
+      <p>Note that you can type out the names of colors, but if you want a particular color and aren’t sure what its name is,
+      you can always use a <span class="pink">hex color</span> or <span class="pink">RGB value</span>
+      (read more <a href="https://www.w3schools.com/css/css_colors_rgb.asp)">here</a>).</p>
+
+      <p>Hex color examples: <span class="code"> #2596be, #e28743</span>
+      <br>RGB color examples: <span class="code"> rgb(238, 130, 238), rgb(118,181,197)</span></p>
+
+      <p>I recommend checking out websites such as <a href="https://imagecolorpicker.com/">https://imagecolorpicker.com</a> to help you find the exact colors you want!</p>
+
+      <hr>
+
+      <h2>Descendants</h2>
+
+      <p>If you want to be even more specific, you can also target the <span class="pink">descendants of elements.</span></p>
+
+      <p>In the example below, each <span class="code">&lt;li></span> element is a descendant of the <span class="code">&lt;ul></span> element.</p>
+
+      <pre><p>&lt;ul class="list"><br>  &lt;li> ... &lt;/li><br>  &lt;li> ... &lt;/li><br>  &lt;li> ... &lt;/li><br>&lt;/ul></pre>
+
+      <p>To have a certain style apply solely to the <span class="code">&lt;/li></span> elements, we would type:</p>
+
+      <pre><p>.list li {<br>  color: white;<br>}</pre>
+
+      <p>So if you type something like that, only the <span class="code">&lt;li></span> elements of <span class="code">.list</span> will change.
+      The <span class="code">&lt;li></span> elements of any other ordered or unordered lists you have on your web page won’t be affected!</p>
+
+      <hr>
+
+      <h2>2 or More Selectors</h2>
+
+      <p>If we have two or more selectors and want to apply the same CSS style to the both of them,
+      we can use a <span class="pink">comma</span> instead of repeating the same declaration blocks.</p>
+
+      <pre><p>p {<br>  font-size: 14px;<br>}
+
+      <br>h2 {<br>  font-size: 14px;<br>}</pre>
+
+      <p>In this example, the text of both selectors will have a font size of 14px.
+      We can combine this by simply using a comma!</p>
+
+      <pre><p>p,h2 {<br>  font-size: 14px;<br>}</pre>
+
+      <hr>
+
+      <p>What are some other properties that we can customize? Here are a few popular ones:</p>
+
+      <br>
+      <h3>Background Color (background-color)</h3>
+
+      <span class="code">
+      <p>background-color: blue;
+      <br>background-color: #e28743;
+      <br>background-color: rgb(118,181,197);</p>
+      </span>
+
+      <p>We can easily change the background color of a web page using this!
+      Remember that we can use the names of colors, but hex colors and RGB values work too.</p>
+
+      <br>
+      <h3>Font Size (font-size)</h3>
+
+      <span class="code">
+      <p>font-size: 12px;
+      <br>font-size: 24px;
+      <br>font-size: 36px;</p>
+      </span>
+
+      <p>You can change the size of your text using this property. The higher the value number, the larger your text.</p>
+
+      <br>
+      <h3>Background Image (background-image)</h3>
+
+      <span class="code">
+      <p>.top{
+      <br>background-image: url("https://www.iamanexample.com/example.jpg");
+      <br>}</p>
+
+      <p>.top {<br>  background-image: url("corgis.jpg");
+      <br>}</p>
+      </span>
+
+      <p>You can also use images for your background instead of a color.
+      Include the link to the image you want, or save the image in the same directory as your CSS and HTML files!</p>
+
+      <br>
+      <h3>Font Weight (font-weight)</h3>
+
+      <span class="code">
+      <p>font-weight: bold;
+      <br>font-weight: lighter;
+      <br>font-weight: 100;
+      <br>font-weight: 900;
+      <br>etc.</p>
+      </span>
+
+      <p><a href="(https://htmldog.com/references/css/properties/font-weight/)">Here</a> is a list of all the values you can
+      use to alter font weight. The standard weight of text is 400, so you can make your text bolder by increasing
+      the value (up to 900) OR by typing bold or bolder. You can make your text lighter by decreasing the value
+      (the minimum being 100) OR by typing lighter.</p>
+
+      <br>
+      <h3>Text Align (text-align)</h3>
+
+      <span class="code">
+      <p>text-align: center;
+      <br>text-align: left;
+      <br>text-align: right;
+      <br>text-align: justify</p>
+      </span>
+
+      <p>Use this to alter your text alignment! Similar to what you would do on Microsoft Word or Apple Pages.</p>
+
+      <br>
+      <h3>Font Family (font-family)</h3>
+
+      <span class="code">
+      <p>font-family: Arial;
+      <br>font-family: Helvetica;
+      <br>font-family: Georgia;
+      <br>font-family: Consolas;</p>
+      </span>
+
+      <p><a href=https://www.cssfontstack.com/ttps://www.cssfontstack.com/c>Here</a> is a list of all the web safe fonts.
+      It’s important to use one of these fonts when you’re just starting to make
+      websites to ensure that different browsers are able to support your chosen font.</p>
+
+      <hr>
+
+      <p>Okay, those are some basics of CSS that are important to know! In future workshops,
+      you’ll learn even more about how we can use CSS to create responsive websites &#x263A;</p>
+
+      </div>
+    </div>
+  </div>
+      <center><div class="footer">
+        <li><a target="_blank" href="https://isabellaperalta.github.io/">< BACK TO HOME</a></li>
+      </div></center>
+</body>
+</html>
