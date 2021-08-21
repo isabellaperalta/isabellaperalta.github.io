@@ -1,32 +1,28 @@
 body {
-      background-color: #f3f0e2;
-      background-size: 30px 30px;
-      background-image: linear-gradient(to right, #cccccc 1px, transparent 1px),
+  background-color: #f3f0e2;
+  background-size: 30px 30px;
+  background-image: linear-gradient(to right, #cccccc 1px, transparent 1px),
                         linear-gradient(to bottom, #cccccc 1px, transparent 1px);
-      background-repeat: repeat;
+  background-repeat: repeat;
 }
 
-.responsive {
+img {
   width: 100%;
   height: auto;
 }
 
-td {
-    padding: 40px;
-}
-
 li {
-    float: right;
-    height: 35px;
-    margin: 0px 40px 0px 0px;
-    color: #000;
-    text-align: right;
-    padding: 10px 5px;
-    width: 250px;
-    list-style-type:none;
-    font-family: monospace;
-    font-size: 1em;
-    color: #e87c64;
+  float: right;
+  height: 35px;
+  margin: 0px 40px 0px 0px;
+  color: #000;
+  text-align: right;
+  padding: 10px 5px;
+  width: 250px;
+  list-style-type:none;
+  font-family: monospace;
+  font-size: 1em;
+  color: #e87c64;
 }
 
 a {
@@ -35,4 +31,40 @@ a {
 
 a:hover{
   color: hotpink;
+}
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+      padding-left:2%;
+      padding-right:2%;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 2%;
+}
+
+.col:first-child {
+      margin-left: 0;
+}
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66%; }
+.span_1_of_3 { width: 32%; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 800px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
 }
