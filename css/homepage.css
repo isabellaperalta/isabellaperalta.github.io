@@ -46,12 +46,8 @@ img {
 }
 
 li {
-    float: right;
     height: 35px;
-    margin: 0px 40px 0px 0px;
-    color: #000;
-    text-align: right;
-    padding: 10px 5px;
+    text-align: center;
     width: 250px;
     list-style-type:none;
     font-family: monospace;
