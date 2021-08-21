@@ -55,9 +55,8 @@ img {
   margin-bottom: 2%;
   font-family: 'Reenie Beanie', cursive;
   font-size: 1.8em;
-  background-color: #e7e7e7;
+  padding: 1.4%;
   color: black;
-  border: 2px solid #e7e7e7;
 }
 
 
@@ -79,21 +78,21 @@ img {
 a {
   text-decoration: none;
   color: gray;
- }
+  }
 
 a:hover {
   color: red;
- }
+  }
 
 @media only screen and (max-width: 800px) {
   .daily {
     font-size: 1.4em;
- }
+  }
 
 .logo {
     margin: auto;
     max-width: 80%;
- }
+  }
 
   .display-data {
     font-size: 0.9em;
