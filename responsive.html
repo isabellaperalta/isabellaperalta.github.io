@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Isa Peralta | Responsive Web Design </title>
+    <meta name="author" content="Isa Peralta">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+    <link href="favicon.ico" rel="icon" type="image/x-icon"/>
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <div style="width:100%" class="responsive">
+    <div class="content">
+      <div class="info">
+        <!-- I see you're looking at my code. Very sneaky.-->
+        <h1>Responsive Web Design</h1>
+
+        <p>Now we know how to make pretty websites, but how can we make them <span class="white">look good no matter the device?</span>
+          Most of the people who check out your website will probably be using a computer, but to become even better web developers,
+          it’s a good idea to <span class="white">make our websites adapt</span> when they’re being viewed on <span class="white">tablets</span> and <span class="white">mobile phones</span>.</p>
+
+        <hr>
+
+        <h2>First things first</h2>
+
+        <p>To make a web page responsive, you’ll first need to include:</p>
+        <pre><p>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"></pre>
+        <p>somewhere inside the <span class="code">&lt;head>&lt;/head></span> tags.</p>
+
+        <p>Doing this will tell your browser how to control your web page’s scaling.<p>
+        <p>According to <a href="https://www.w3schools.com/css/css_rwd_viewport.asp" target="_blank" rel="noopener noreferrer">W3Schools</a>, the <span class="code">width=device-width</span> part
+        <span class="white">"sets the width of the page to follow the screen-width of the device (which will vary depending on the device)."</span></p>
+        <p>The <span class="code">initial-scale=1.0</span> part <span class="white">"sets the initial zoom level when the page is first loaded by the browser."</span></p>
+        <p>The <span class="code">&lt;head></span> section of your HTML file should look something like this:</p>
+
+        <pre><p>&lt;head><br>  &lt;title> Title of Your Web Page &lt;/title><br>  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"><br>  &lt;meta charset="UTF-8"><br>  &lt;meta http-equiv="X-UA-Compatible" content="ie=edge"><br>  &lt;link rel="stylesheet" href="yourcssfile.css"><br>&lt;/head></pre>
+
+        <hr>
+
+        <h2>Swapping px for em</h2>
+
+        <p>Instead of using px when specifying the size of your text, <span class="white">use em</span>!</p>
+        <p>According to <a href="https://www.digitalocean.com/community/tutorials/css-rem-vs-em-units" target="_blank" rel="noopener noreferrer">
+           Digital Ocean</a>, em is <span class="white">"a unit that allows setting the font-size of an element relative to the font-size of its parent."</span>
+
+        <p>For example:</p>
+
+        <pre><p>.parent {<br>  font-size: 18px;<br>}
+        <br>.child {  <br>  font-size: 1.5em;<br>}</pre>
+
+        <p>The child would have a <span class="code">font-size</span> of <span class="white">27px</span> (because 1.5 times 18px is 27px).</p>
+        <p><span class="code">em</span> lets us <span class="white">change the size of our text without affecting our websites’ design</span>.
+        Fonts that have a <span class="white">particular size in px will not change in size</span> when screen sizes change.<span class="code"> em</span> is scalable while px is not!</span></p>
+
+        <hr>
+
+        <h2>Percentages</h2>
+
+        <p>Instead of using px, we can use <span class="white">percentages when specifying heights, widths, borders, margins, and padding</span>.</p>
+        <p>The <span class="white">layouts</span> of our websites will be <span class="white">more flexible</span>, so if we create a <span class="white">div with a width of 50%</span>,
+        it will always take up <span class="white">half of the screen no matter how big or small the screen is</span>.
+        If we create a <span class="white">div that has a width of 50px</span>, the div will <span class="white">never change in size</span>.</p>
+
+        <p>Using percentages is useful when we have <span class="white">divs inside other divs</span>. For example, if you have a div that <span class="white">spans the entire width of your webpage</span>,
+        you can use <span class="white">percentages for the widths of the divs inside this main div</span>. When you resize your browser, all the divs inside this main div will
+        <span class="white">change in size depending on how big or small the main div becomes</span>.</p>
+        <p>Let’s see this in action.</p>
+        <p>Here are two divs. The first div has the class <span class="code">“parent”</span> and the second div has the class <span class="code">“child”</span>.</p>
+
+        <pre><p>.parent {<br>  width: 100%;<br>}
+        <br>.parent .child {<br>  width: 75%;<br>}</pre>
+
+        <p>Since <span class="code">.parent</span> has a <span class="white">width of 100%</span>, the width of <span class="code">
+        .parent .child</span> is <span class="white">75% of the width</span> of <span class="code">.parent</span>.</p>
+
+        <hr>
+
+        <h2>Responsive Images and Videos</h2>
+
+        <p>To make our <span class="white">images and videos change in size whenever a browser is resized</span>, there are certain properties and values we’ll need to use.</p>
+        <p>To edit an image’s properties and values, let’s write:</p>
+
+        <pre><p>img {<br>  max-width: 100%;<br>  height: auto;<br>  display: block;<br>}</pre>
+
+        <p>We write <span class="code">max-width</span> instead of just <span class="code">width</span> to ensure that our image <span class="white">never becomes too big and
+        ends up getting cut off if the browser is resized</span>. We set the image’s height to <span class="code">auto</span> so that the height will <span class="white">automatically change in size (proportional to the image’s width).</span>
+        <p>Finally, we write <span class="code">display:block;</span> to make sure that <span class="white">other elements won’t align with our image and mess up the spacing of the web page</span>.</p>
+
+        <div class="joaquin">
+          <a href="http://joaquinkunkel.com/" target="_blank" rel="noopener noreferrer"><img src="img/joaquin.jpg"></a>
+        </div>
+
+        <p>We can also <span class="white">we can use the same code for videos</span>!</p>
+
+        <pre><p>video {<br>  width: 100%;<br>  height: auto;<br>}</pre>
+
+        <p>And what about <span class="white">image backgrounds?</span>
+
+        <p>If you want to <span class="white">use an image for your web page’s background</span>,
+          you can use the following code to ensure that your image <span class="white">properly
+          scales up or down when the browser is resized</span>.</p>
+
+        <pre><p>body {<br>  background-image: url('https://example.com/example.jpg');<br>  background-repeat: no-repeat;<br>  background-position: center;<br>  background-size: cover;<br>}</pre>
+
+        <p>We need to type <span class="code">background-repeat: no-repeat;</span> since <span class="white">images repeat by default</span>.
+        <p><span class="code">background-position: center;</span> ensures the image we use will be <span class="white">centered<span>,
+        and <span class="code">background-size: cover;</span> scales the background image so that it will <span class="white">always be kept in proportion<span>.</p>
+
+        <hr>
+
+        <h2>Media Queries</h2>
+
+        <p>We use media queries so that <span class="white">our website’s content will change based on different screen sizes</span>.
+        CSS uses media queries to <span class="white">determine the size of the screen the web page is being viewed on</span>.
+        It then <span class="white">applies different CSS styles depending on the screen size</span>.</p>
+
+        <p>In the example below, the <span class="code">max-width</span> has been set to <span class="code">480px</span>.
+        This means that this specific ruleset <span class="white">will only be applied when the screen
+        (that the web page is being viewed on) is 480px or less in width</span>.
+        The background color of our web page will become red!</p>
+
+        <pre><p>@media only screen and (max-width: 480px) {<br>  body {<br>    background-color: red;<br>  }<br>}</pre>
+
+        <p>You can also specify a <span class="white">range of multiple heights and widths</span>.</p>
+
+        <p>In the example below, the ruleset would <span class="white">only apply to screen sizes between 600px and 768px</span>.
+
+        <pre><p>@media only screen and (min-width: 600px) and (max-width: 768px) {<br><br>  }</pre>
+
+        <hr>
+
+        <h2>Typical Device Breakpoints</h2>
+
+        <p>Here’s a list of typical device breakpoints from W3Schools.</p>
+
+        <pre><p>
+        /* Extra small devices (phones, 600px and down) */
+        @media only screen and (max-width: 600px) {...}
+
+        /* Small devices (portrait tablets and large phones, 600px and up) */
+        @media only screen and (min-width: 600px) {...}
+
+        /* Medium devices (landscape tablets, 768px and up) */
+        @media only screen and (min-width: 768px) {...}
+
+        /* Large devices (laptops/desktops, 992px and up) */
+        @media only screen and (min-width: 992px) {...}
+
+        /* Extra large devices (large laptops and desktops, 1200px and up) */
+        @media only screen and (min-width: 1200px) {...}
+        </pre>
+
+        <hr>
+
+        <h2>Fonts</h2>
+
+        <p>Pay attention to font sizes. It’s good practice to <span class="white">
+        write code that alters the size of you text as the screen size decreases</span>.
+        You can change the font size of <span class="white">body text, headings, and more</span>!</p>
+
+        <p>If the screen size is <span class="white">769px or more</span>, the <span class="code">font-size</span>
+        of <span class="code"> &lt;div></span>will be <span class="white">20px</span>.</p>
+
+        <pre><p>@media only screen and (min-width: 769px) {<br>  .example {<br>    font-size: 40px;<br>  }<br>}</pre>
+
+        <p>If the screen size is <span class="white">768px or less</span>, the
+        <span class="code">font-size</span> of <span class="code">&lt;div></span> will be <span class="white">20px</span>.</p>
+
+        <pre><p>@media only screen and (max-width: 768px)<br>  .example {<br>    font-size: 20px;<br>  }<br>}</pre>
+
+        <p>If you don’t have a ton of devices of different sizes on hand, you can use a website such
+        as <a href="http://www.responsinator.com/" target="_blank" rel="noopener noreferrer">this one </a> to
+        help you <span class="white">see what your web page looks like across screens of different sizes</span>.
+
+        <hr>
+
+        <h2>Hiding Elements</h2>
+
+        <p>If there are <span class="white">specific elements</span> that won’t look too good when
+        your web page is viewed on a tablet or a mobile phone,<span class="white"> you can
+        hide them by using the code below.</p>
+
+        <p>If the screen size is <span class="white">600px or less in width</span>, this <span class="code">&lt;div></span> element will disappear.</p>
+
+        <pre><p>@media only screen and (max-width: 600px) {<br>  .example {<br>    display: none;<br>  }<br>}</pre>
+
+        <hr>
+
+        <p>All right, those are the basics of responsive web design! Now you’re ready to make web pages that can be viewed on mobile phones,
+        tablets, and computers of different sizes. ⚡ To make your websites even more engaging, consider learning the basics of Javascript! &#x263A;</p>
+
+      </div>
+    </div>
+  </div>
+      <center><div class="footer">
+        <a href="https://isabellaperalta.github.io/">< BACK TO HOME</a>
+      </div></center>
+</body>
+</html>
