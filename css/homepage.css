@@ -8,19 +8,21 @@ body {
 
 /*  SECTIONS  */
 .section {
-	clear: both;
+  clear: both;
   padding-left:2%;
   padding-right:2%;
-	margin: 0px;
+  margin: 0px;
 }
 
 /*  COLUMN SETUP  */
 .col {
-	display: block;
-	float:left;
-	margin: 1% 0 1% 2%;
+  display: block;
+  float:left;
+  margin: 1% 0 1% 2%;
 }
-.col:first-child { margin-left: 0; }
+.col:first-child { 
+  margin-left: 0;
+}
 
 /*  GROUPING  */
 .group:before,
