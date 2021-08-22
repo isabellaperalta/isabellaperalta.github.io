@@ -4,40 +4,27 @@ body {
   background-image: linear-gradient(to right, #cccccc 1px, transparent 1px),
                     linear-gradient(to bottom, #cccccc 1px, transparent 1px);
   background-repeat: repeat;
+  padding: 1rem;
 }
 
-/*  SECTIONS  */
-.section {
-  clear: both;
-  padding-left:2%;
-  padding-right:2%;
-  margin: 0px;
+.card {
+  padding: 1rem;
+  height: auto;
 }
 
-/*  COLUMN SETUP  */
-.col {
-  display: block;
-  float:left;
-  margin: 1% 0 1% 2%;
-}
-.col:first-child { 
-  margin-left: 0;
+.cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
 }
 
-/*  GROUPING  */
-.group:before,
-.group:after { content:""; display:table; }
-.group:after { clear:both;}
-.group { zoom:1; /* For IE 6/7 */ }
+@media (max-width: 600px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
 
-/*  GRID OF THREE  */
-.span_3_of_3 { width: 100%; }
-.span_2_of_3 { width: 66%; }
-.span_1_of_3 { width: 32%; }
-
-@media only screen and (max-width: 600px) {
-	.col {  margin: 1% 0 1% 0%; }
-	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+@media (min-width: 601px) {
+  .cards { grid-template-columns: repeat(3, 1fr); }
 }
 
 img {
@@ -45,20 +32,73 @@ img {
   height: auto;
 }
 
-li {
-    height: 35px;
-    text-align: center;
-    width: 250px;
-    list-style-type:none;
-    font-family: monospace;
-    font-size: 1em;
-    color: #e87c64;
+a {
+  color: #e87c64;
+  text-decoration: none;
+}
+
+a:hover{
+  color: black;
+  text-decoration: none;
+}
+
+.footer {
+  height: 10%;
+  text-align: center;
+  font-family: monospace;
+  font-size: 1em;
+  color: #e87c64;
+  text-align: center;
+}
+body {
+  background-color: #f3f0e2;
+  background-size: 30px 30px;
+  background-image: linear-gradient(to right, #cccccc 1px, transparent 1px),
+                    linear-gradient(to bottom, #cccccc 1px, transparent 1px);
+  background-repeat: repeat;
+  padding: 1rem;
+}
+
+.card {
+  padding: 1rem;
+  height: auto;
+}
+
+.cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+@media (max-width: 600px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 601px) {
+  .cards { grid-template-columns: repeat(3, 1fr); }
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
 
 a {
   color: #e87c64;
+  text-decoration: none;
 }
 
 a:hover{
-  color: hotpink;
+  color: black;
+  text-decoration: none;
+}
+
+.footer {
+  height: 10%;
+  text-align: center;
+  font-family: monospace;
+  font-size: 1em;
+  color: #e87c64;
+  text-align: center;
 }
