@@ -59,6 +59,7 @@ img {
   font-size: 1.8em;
   padding: 1.1%;
   color: black;
+  margin-top: 30px;
 }
 
 
@@ -86,7 +87,7 @@ a:hover {
   color: red;
   }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .daily {
     font-size: 1.4em;
   }
@@ -109,7 +110,7 @@ a:hover {
     padding-bottom:1.5%;
     height:300px;
     max-width: 600px;
-  }
+}
   .display-data {
     font-size: 1em;
     line-height: 1.5em;
@@ -124,7 +125,7 @@ a:hover {
 #theButton {
     font-size:  1.7em;
     padding: 2.5%;
-    margin-top: 3%;
+    margin-top: 2%;
     margin-bottom: 5%;
   }
 }
