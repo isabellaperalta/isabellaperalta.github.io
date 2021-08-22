@@ -16,14 +16,13 @@ html, body {
     z-index:1000;
 }
 
-p {
-}
-
 #message, element.style {
   font-size: 2.3em;
   font-family: "Montserrat";
   font-weight: 900;
   color: white;
+  padding-left: 12%;
+  padding-right: 12%;
   text-align: center;
   margin-top: 20%;
   margin-bottom: 3%;
@@ -35,15 +34,18 @@ p {
   color: white;
   font-family: "Montserrat";
   font-size: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
   display: block;
   font-weight: 100;
 }
 
 .footer {
   color: white;
+  font-family: 'Lato', sans-serif;
   line-height: 5px;
-  font-family: "Arial";
-  font-size: 0.7em;
+  font-size: 0.8em;
   font-weight: 400;
   position:fixed;
   bottom:0;
@@ -64,6 +66,7 @@ a:hover {
 
 button {
       width:220px;
+      border: none;
       margin:20px auto;
       height: 70px;
       background:red;
@@ -87,3 +90,49 @@ button {
       75%  {background:#7b68ee;}
       100% {background:red;}
       }
+
+@media only screen and (max-width: 950px) {
+  .color {
+    background-color: blue;
+    }
+
+  #message {
+    font-size: 1.5em;
+    padding-left: 15%;
+    padding-right: 15%;
+    height: 70px;
+  }
+
+  #theButton {
+      font-size: 1.3em;
+  }
+
+  button {
+    margin-right: auto;
+    color: red;
+    width:180px;
+    height: 60px;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+  #message {
+    font-size: 1.3em;
+    padding-left: 15%;
+    padding-right: 15%;
+    height: 70px;
+  }
+
+  #theButton {
+    font-size: 1.2em;
+  }
+
+  button {
+    width:180px;
+    border: none;
+    height: 60px;
+  }
+
+}
