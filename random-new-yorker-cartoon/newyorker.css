@@ -23,11 +23,6 @@ img {
   max-width: 50%;
 }
 
-.image{
-  height:auto;
-  max-width: 70%;
-}
-
 .daily {
     padding-top: 1%;
     font-family: 'Reenie Beanie', cursive;
@@ -35,10 +30,16 @@ img {
 }
 
 .box {
-    max-height:800px;
-    max-width: 800px;
-    padding-top:1.5%;
-    padding-bottom:1.5%;
+    height:450px;
+}
+
+.image {
+  width: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 95%;
+  max-width: MaxSize;
+  max-height: MaxSize;
 }
 
 .display-data {
@@ -46,9 +47,9 @@ img {
   font-size: 1.1em;
   line-height: 1.5em;
   padding-bottom:2%;
-  margin-left: 25%;
-  margin-right: 25%;
-  max-width: auto;
+  margin-top: 2%;
+  width: 500px;
+  height: 60px;
 }
 
 #theButton {
@@ -81,39 +82,48 @@ img {
 a {
   text-decoration: none;
   color: gray;
-  }
+}
 
 a:hover {
   color: red;
-  }
+}
 
-@media only screen and (max-width: 800px) {
-  .daily {
-    font-size: 1.4em;
-  }
+@media only screen and (max-width: 900px) {
 
 .logo {
     margin: auto;
-    max-width: 80%;
-  }
-
-  .display-data {
-    font-size: 0.9em;
-    line-height: 1.5em;
-    margin-left: 12%;
-    margin-right: 12%;
-    padding-bottom:2%;
-  }
+    max-width: 60%;
+}
 
 .box {
-    padding-bottom:0px;
-  }
+  height: 300px;
+}
+
+.image {
+  max-width: 80%;
+  height: 300px;
+  display: block;
+}
 
 #theButton {
-    font-size: 1.5em;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 2.1%;
-    padding-right: 2.1%;
-  }
+  font-size: 1.5em;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2.1%;
+  padding-right: 2.1%;
+}
+
+.daily {
+  font-size: 1.5em;
+}
+
+.display-data {
+  width: 300px;
+  font-size: 1em;
+}
+
+.footer {
+  margin-top: 20px;
+}
+
 }
