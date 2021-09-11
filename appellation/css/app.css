@@ -228,7 +228,7 @@ button {
 }
 
 .title {
-  font-size: 1.2em;
+  font-size: 0.8em;
 }
 
 .tagline{
@@ -262,13 +262,13 @@ input {
 @media only screen and (max-width:800px) {
 
 #defineTitle {
-  font-size: 2em;
+  font-size: 1.2em;
   margin-right: 100px;
   width:75%;
 }
 
 #noun {
-  font-size: 1em;
+  font-size: 0.9em;
   width:75%;
   line-height: 25px;
   padding-top: 10px;
@@ -279,18 +279,25 @@ input {
   margin-left: 5%;
   padding-bottom: 4px;
   width:75%;
+  font-size: 0.9em;
   line-height: 28px;
   margin-top: 1px;
 }
 
 #list {
   width:80%;
+  font-size: 0.9em;
   padding-bottom: 10px;
 }
 
 #back {
   padding-top: 20px;
+  font-size: 0.9em;
   padding-bottom: 20px;
+}
+
+#api, #made {
+  font-size: 0.9em;
 }
 
 }
