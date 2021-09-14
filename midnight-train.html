@@ -100,6 +100,14 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
 	</div>
 	<tw-storydata name="Midnight Train" startnode="1" creator="Twine" creator-version="2.3.14" ifid="3E4E3114-C2F9-433D-A720-FBCCF9D90F5B" zoom="1" format="SugarCube" format-version="2.34.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
 
+#title, #menu, #ui-bar-tray {
+	display: none;
+}
+
+#ui-bar-toggle {
+	display: none;
+}
+
 a {
 	text-decoration: none;
 	color: gray;
@@ -135,10 +143,21 @@ html,.body{
   margin-bottom: 10%;
   margin-right: auto;
   margin-left: auto;
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript">postdisplay['fadeIn-text'] = function (taskName) {
+}
+
+#ui-bar {
+display: none;
+}
+</style><script role="script" id="twine-user-script" type="text/twine-javascript">postdisplay['fadeIn-text'] = function (taskName) {
 	$('#passages').addClass('fadeIn');
 	$('.fadeIn').hide().fadeIn(1600);
-};</script><tw-passagedata pid="1" name="Beginning" tags="" position="125,325" size="100,100">midnight train
+};
+
+$('#ui-bar').remove();
+$(document.head).find('#style-ui-bar').remove();
+
+$('#style-ui-bar,#ui-bar').remove();
+</script><tw-passagedata pid="1" name="Beginning" tags="" position="125,325" size="100,100">midnight train
 
 interactive fiction by [[isabella peralta|https://isabellaperalta.com/]].
 an adaptation of a short story by branden kang.
@@ -264,12 +283,8 @@ This must be what it means to [[be happy|The entire world]].
 //*//
 
 
-The train doors [[slid open|opened his eyes]]. 
-</tw-passagedata><tw-passagedata pid="23" name="opened his eyes" tags="" position="950,875" size="100,100">A small shoe entered first, and made a squeak as it kissed the floor. It was accompanied by the other shoe, which also kissed the floor and squeaked. The man raised his head and sat upright, noticing that he was slightly leaning on someone’s right shoulder. He heard four more squeaks. A boy with pale, skinny legs was marching gloriously across the compartment. He was wearing pink shorts that were rolled up to reveal an inch of his thighs, and a white polo that made him look like a mini frat boy. A bright orange cap was pressed down to his nose and covered his entire upper face, but his head was held so high that the man could glimpse at the boy’s hazel eyes from time to time. He was holding hands with his mother, who was much taller than he. Her brown, curly hair stretched down to her waist. She walked slightly behind the boy, her high heels clicking and clacking. 
-
-[[Click]]. [[Clack]]. [[Click clack]].
-
-</tw-passagedata><tw-passagedata pid="24" name="The entire world" tags="" position="1175,475" size="100,100">The scene had changed from gray to green as the train entered the forest trail. A jade jungle replaced the skyline. Frosted pine trees replaced the charcoal buildings. Fallen winter leaves, broken branches, dead grass and damp dirt stretched along the trail. As the train gained speed the image of the forest began to blur. The man found himself staring once again staring at a hazy scene, the pine trees, leaves, grass and dirt blending indefinitely as the train bulleted through the air. The air swooshed and the engine rumbled. 
+The train jolted. The man [[opened his eyes|opened his eyes]]. 
+</tw-passagedata><tw-passagedata pid="23" name="The entire world" tags="" position="1175,475" size="100,100">The scene had changed from gray to green as the train entered the forest trail. A jade jungle replaced the skyline. Frosted pine trees replaced the charcoal buildings. Fallen winter leaves, broken branches, dead grass and damp dirt stretched along the trail. As the train gained speed the image of the forest began to blur. The man found himself staring once again staring at a hazy scene, the pine trees, leaves, grass and dirt blending indefinitely as the train bulleted through the air. The air swooshed and the engine rumbled. 
 ! 
 The tunnel swallowed him with the train. 
 ! 
@@ -367,7 +382,7 @@ add link to [[crucifix necklace]]
 
 
 The train doors [[slid open|opened his eyes]]. 
-</tw-passagedata><tw-passagedata pid="25" name="crucifix necklace" tags="" position="775,725" size="100,100">
+</tw-passagedata><tw-passagedata pid="24" name="crucifix necklace" tags="" position="875,725" size="100,100">
 2:00 PM. September 21 2012. 
 
 &quot;And God said, Let there be light: and there was light.” 
@@ -430,8 +445,7 @@ I sat back down. The choir was singing. I closed my eyes and locked my hands tog
 
 
 The train doors [[slid open|opened his eyes]]. 
-</tw-passagedata><tw-passagedata pid="26" name="Click" tags="" position="950,1025" size="100,100">10:32 P.M., July 28, 1994. Seoul, Korea. 
-! 
+</tw-passagedata><tw-passagedata pid="25" name="opened his eyes" tags="" position="1125,700" size="100,100"> 
 A soldier in green forest camouflage walked into the train and sat next to the man. 
 ! 
 He was breathing so heavily the man could barely hear the noises of the train. 
@@ -466,81 +480,9 @@ These songs of freedom?
 The train was approaching its last stop. ! 
 A handful of people on the train prepared to get off. Some stood from their seats, eager to leave. Others remained seated, calmly waiting for the end of the ride.
 !
-On the man’s left sat a [[17-year-old girl]]. On his right sat a [[middle-aged woman]]. </tw-passagedata><tw-passagedata pid="27" name="Clack" tags="" position="1175,975" size="100,100">10:32 P.M., July 28, 1994. Seoul, Korea. 
-! 
-A soldier in green forest camouflage walked into the train and sat next to the man. 
-! 
-He was breathing so heavily the man could barely hear the noises of the train. 
-! 
-The soldier wrapped his arms around his abdomen and winced painfully. 
-! 
-Underneath the soldier’s arms was a pool of bright red blood, oozing from three layers of gauze. As the soldier clenched his stomach harder, his hands sank deeper into the blood. ! 
+On the man’s left sat a [[17-year-old girl]]. On his right sat a [[middle-aged woman]]. </tw-passagedata><tw-passagedata pid="26" name="17-year-old girl" tags="" position="975,875" size="100,100">She had bony, freckled cheeks and orange hair that fell slightly below her shoulder line. She was wearing a loose singlet that revealed her gaunt chest and shoulders. A column of bones protruded from her pale neck like a line of dominoes. She had brown and green bruises on her arms, thighs and knees, which made her looked like a peach that had been accidentally dropped a couple of times. A used diary sat on her lap; a few pages had been torn out. Her left hand clutched an empty bottle of pills. 
 
-Momma ... Momma... 
-! 
-The man turned towards the soldier in disbelief. “Are you alright?” He asked. 
-! 
-The soldier didn’t respond. 
-! 
-“Hold on, I’ll call 911.” The man pulled his phone out but there was no signal. 
-! 
-The soldier stopped wincing. 
-! 
-He reached into his pocket and took out a pair of earphones, then put them in his ear. The gauze that had been dyed entirely red was white again. His hands were no longer drenching with blood, as if someone had wiped everything off.
-! 
-The man thought that he must be in a dream. 
-! 
-A song leaked through the soldier’s earphones: 
-! 
-Old pirates, yes, they rob I; Sold I to the merchant ships, Minutes after they took I From the bottomless pit. 
-! 
-But my hand was made strong By the ‘and of the Almighty. We forward in this generation Triumphantly. 
-! 
-Won’t you help to sing
-These songs of freedom?
-!
-The train was approaching its last stop. ! 
-A handful of people on the train prepared to get off. Some stood from their seats, eager to leave. Others remained seated, calmly waiting for the end of the ride.
-!
-On the man’s left sat a [[17-year-old girl]]. On his right sat a [[middle-aged woman]]. </tw-passagedata><tw-passagedata pid="28" name="Click clack" tags="" position="1400,1000" size="100,100">10:32 P.M., July 28, 1994. Seoul, Korea. 
-! 
-A soldier in green forest camouflage walked into the train and sat next to the man. 
-! 
-He was breathing so heavily the man could barely hear the noises of the train. 
-! 
-The soldier wrapped his arms around his abdomen and winced painfully. 
-! 
-Underneath the soldier’s arms was a pool of bright red blood, oozing from three layers of gauze. As the soldier clenched his stomach harder, his hands sank deeper into the blood. ! 
-
-Momma ... Momma... 
-! 
-The man turned towards the soldier in disbelief. “Are you alright?” He asked. 
-! 
-The soldier didn’t respond. 
-! 
-“Hold on, I’ll call 911.” The man pulled his phone out but there was no signal. 
-! 
-The soldier stopped wincing. 
-! 
-He reached into his pocket and took out a pair of earphones, then put them in his ear. The gauze that had been dyed entirely red was white again. His hands were no longer drenching with blood, as if someone had wiped everything off.
-! 
-The man thought that he must be in a dream. 
-! 
-A song leaked through the soldier’s earphones: 
-! 
-Old pirates, yes, they rob I; Sold I to the merchant ships, Minutes after they took I From the bottomless pit. 
-! 
-But my hand was made strong By the ‘and of the Almighty. We forward in this generation Triumphantly. 
-! 
-Won’t you help to sing
-These songs of freedom?
-!
-The train was approaching its last stop. ! 
-A handful of people on the train prepared to get off. Some stood from their seats, eager to leave. Others remained seated, calmly waiting for the end of the ride.
-!
-On the man’s left sat a [[17-year-old girl]]. On his right sat a [[middle-aged woman]]. </tw-passagedata><tw-passagedata pid="29" name="17-year-old girl" tags="" position="975,1175" size="100,100">She had bony, freckled cheeks and orange hair that fell slightly below her shoulder line. She was wearing a loose singlet that revealed her gaunt chest and shoulders. A column of bones protruded from her pale neck like a line of dominoes. She had brown and green bruises on her arms, thighs and knees, which made her looked like a peach that had been accidentally dropped a couple of times. A used diary sat on her lap; a few pages had been torn out. Her left hand clutched an empty bottle of pills. 
-
-A few steps next to the girl stood a [[fireman]] and a [[businessman]].</tw-passagedata><tw-passagedata pid="30" name="middle-aged woman" tags="" position="1200,1250" size="100,100">She was looking down at her phone and weeping.
+A few steps next to the girl stood a [[fireman]] and a [[businessman]].</tw-passagedata><tw-passagedata pid="27" name="middle-aged woman" tags="" position="1200,975" size="100,100">She was looking down at her phone and weeping.
 
 She was texting her daughter. 
  
@@ -555,7 +497,7 @@ She wiped the phone screen with her hands.
 I’m so sorry. I love you, Hailey.
 
 A [[businessman]] in a gray suit was using his phone beside the woman. A [[fireman]] stood to her right. 
-</tw-passagedata><tw-passagedata pid="31" name="fireman" tags="" position="975,1325" size="100,100">
+</tw-passagedata><tw-passagedata pid="28" name="fireman" tags="" position="1000,1025" size="100,100">
 He was walking back and forth along the train, sweating and panting anxiously. His entire face was smeared with ash. He muttered something under his breath.
 !
 There were still people in there.
@@ -565,7 +507,7 @@ It was so dark -- the smoke covered my eyes.
 It’s my fault.
 I made the wrong decision.
 I picked the [[empty one|dream]].
-</tw-passagedata><tw-passagedata pid="32" name="businessman" tags="" position="1400,1250" size="100,100">He was leaving a voice message. 
+</tw-passagedata><tw-passagedata pid="29" name="businessman" tags="" position="1400,975" size="100,100">He was leaving a voice message. 
 ! 
 I regret everything. 
 I regret the day I started smoking when I was eighteen. 
@@ -575,7 +517,7 @@ I regret shouting at you this morning.
 I regret not having had the courage, every single time we fought, to tell you that I’m sorry. 
 
 “What a peculiar [[dream]],” thought the man. 
-</tw-passagedata><tw-passagedata pid="33" name="dream" tags="" position="1475,1475" size="100,100">The train came to a stop. 
+</tw-passagedata><tw-passagedata pid="30" name="dream" tags="" position="1275,1175" size="100,100">The train came to a stop. 
 
 The door slid open, and people stepped out one after another. 
 
@@ -592,7 +534,7 @@ The man approached him. “Sir, are you not getting off?”
 
 The old man shook his head and said, “I’m waiting for my wife.” 
 
-The man nodded. He [[stood]].</tw-passagedata><tw-passagedata pid="34" name="stood" tags="" position="800,1500" size="100,100">The memory of him sleeping next to his dad on Christmas Eve entered his head again. He remembered how warm his dad’s body was. How the steady heartbeat made him feel out of harm’s way.
+The man nodded. He [[stood]].</tw-passagedata><tw-passagedata pid="31" name="stood" tags="" position="800,1500" size="100,100">The memory of him sleeping next to his dad on Christmas Eve entered his head again. He remembered how warm his dad’s body was. How the steady heartbeat made him feel out of harm’s way.
 ! 
 He thought about love. 
 ! 
